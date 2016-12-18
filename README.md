@@ -1,2 +1,2 @@
 # DesignCPU
-Design a computer model based on micro program CPU using Verilog HDL in MAXPLUSⅡ
+Design a computer model based on microprogram CPU using Verilog HDL in MAXPLUSⅡ(But I recommend you to use Quartus)

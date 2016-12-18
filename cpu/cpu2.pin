@@ -1,0 +1,115 @@
+-- Copyright (C) 1988-2002 Altera Corporation
+-- Any megafunction design, and related net list (encrypted or decrypted),
+-- support information, device programming or simulation file, and any other
+-- associated documentation or information provided by Altera or a partner
+-- under Altera's Megafunction Partnership Program may be used only to
+-- program PLD devices (but not masked PLD devices) from Altera.  Any other
+-- use of such megafunction design, net list, support information, device
+-- programming or simulation file, or any other related documentation or
+-- information is prohibited for any other purpose, including, but not
+-- limited to modification, reverse engineering, de-compiling, or use with
+-- any other silicon devices, unless such use is explicitly licensed under
+-- a separate agreement with Altera or a megafunction partner.  Title to
+-- the intellectual property, including patents, copyrights, trademarks,
+-- trade secrets, or maskworks, embodied in any such megafunction design,
+-- net list, support information, device programming or simulation file, or
+-- any other related documentation or information provided by Altera or a
+-- megafunction partner, remains with Altera, the megafunction partner, or
+-- their respective licensors.  No other licenses, including any licenses
+-- needed under any third party's intellectual property, are provided herein.
+
+
+
+N.C. = No Connect. This pin has no internal connection to the device.
+VCCINT = Dedicated power pin, which MUST be connected to VCC (5.0 volts).
+VCCIO = Dedicated power pin, which MUST be connected to VCC (5.0 volts).
+GND = Dedicated ground pin or unused dedicated input, which MUST be connected to GND.
+RESERVED = Unused I/O pin, which MUST be left unconnected.
+
+----------------------------------------------------------------------------
+
+CHIP "cpu2" ASSIGNED TO AN EPM7064LC84-7
+GND                              : 1
+GND                              : 2
+VCCINT                           : 3
+RESERVED                         : 4
+RESERVED                         : 5
+RESERVED                         : 6
+GND                              : 7
+RESERVED                         : 8
+RESERVED                         : 9
+RESERVED                         : 10
+BUS0                             : 11
+BUS2                             : 12
+VCCIO                            : 13
+BUS3                             : 14
+BUS5                             : 15
+reset                            : 16
+BUS4                             : 17
+BUS1                             : 18
+GND                              : 19
+LDXXX1                           : 20
+LDXXX0                           : 21
+LDXXX2                           : 22
+LDR                              : 23
+IR4                              : 24
+T2                               : 25
+VCCIO                            : 26
+LDIR                             : 27
+~804~1                           : 28
+B4                               : 29
+OUT3                             : 30
+OUT4                             : 31
+GND                              : 32
+R33                              : 33
+A4                               : 34
+R13                              : 35
+R23                              : 36
+R03                              : 37
+VCCIO                            : 38
+R04                              : 39
+T1                               : 40
+IR3                              : 41
+GND                              : 42
+VCCINT                           : 43
+IR2                              : 44
+R34                              : 45
+R01                              : 46
+GND                              : 47
+R21                              : 48
+R02                              : 49
+R22                              : 50
+R24                              : 51
+R31                              : 52
+VCCIO                            : 53
+R32                              : 54
+R11                              : 55
+R12                              : 56
+OUT2                             : 57
+R14                              : 58
+GND                              : 59
+~805~1                           : 60
+~806~1                           : 61
+~803~1                           : 62
+IR1                              : 63
+IR0                              : 64
+R00                              : 65
+VCCIO                            : 66
+R35                              : 67
+R25                              : 68
+R30                              : 69
+OUT1                             : 70
+R10                              : 71
+GND                              : 72
+R05                              : 73
+OUT5                             : 74
+R15                              : 75
+OUT0                             : 76
+R20                              : 77
+VCCIO                            : 78
+~802~1                           : 79
+~807~1                           : 80
+RESERVED                         : 81
+GND                              : 82
+clk                              : 83
+GND                              : 84

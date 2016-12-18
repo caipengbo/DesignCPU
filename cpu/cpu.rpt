@@ -1,0 +1,3301 @@
+Project Information                           d:\maxplus\a_project\cpu\cpu.rpt
+
+MAX+plus II Compiler Report File
+Version 10.2 07/10/2002
+Compiled: 12/18/2016 21:21:08
+
+Copyright (C) 1988-2002 Altera Corporation
+Any megafunction design, and related net list (encrypted or decrypted),
+support information, device programming or simulation file, and any other
+associated documentation or information provided by Altera or a partner
+under Altera's Megafunction Partnership Program may be used only to
+program PLD devices (but not masked PLD devices) from Altera.  Any other
+use of such megafunction design, net list, support information, device
+programming or simulation file, or any other related documentation or
+information is prohibited for any other purpose, including, but not
+limited to modification, reverse engineering, de-compiling, or use with
+any other silicon devices, unless such use is explicitly licensed under
+a separate agreement with Altera or a megafunction partner.  Title to
+the intellectual property, including patents, copyrights, trademarks,
+trade secrets, or maskworks, embodied in any such megafunction design,
+net list, support information, device programming or simulation file, or
+any other related documentation or information provided by Altera or a
+megafunction partner, remains with Altera, the megafunction partner, or
+their respective licensors.  No other licenses, including any licenses
+needed under any third party's intellectual property, are provided herein.
+
+
+
+***** Project compilation was successful
+
+
+
+
+** DEVICE SUMMARY **
+
+Chip/                     Input   Output   Bidir         Shareable
+POF       Device          Pins    Pins     Pins     LCs  Expanders  % Utilized
+
+cpu       EPM7096QC100-7   28       45       0      63      42          65 %
+cpu1      EPM7096LC84-7    22       41       0      61      78          63 %
+cpu2      EPM7064LC84-7    11       47       0      47      0           73 %
+
+TOTAL:                     61       133      0      171     120         66 %
+
+User Pins:                 3        106      0  
+
+
+
+Project Information                           d:\maxplus\a_project\cpu\cpu.rpt
+
+** PROJECT COMPILATION MESSAGES **
+
+Warning: Flipflop ':877' stuck at GND
+Warning: Flipflop ':878' stuck at GND
+Warning: Flipflop ':879' stuck at GND
+Warning: Flipflop ':880' stuck at GND
+Warning: Flipflop ':881' stuck at GND
+Warning: Flipflop ':882' stuck at GND
+Warning: Flipflop ':883' stuck at GND
+Warning: Flipflop ':884' stuck at GND
+Warning: Flipflop ':911' stuck at GND
+Warning: Flipflop ':912' stuck at GND
+Warning: Flipflop ':914' stuck at GND
+Warning: Flipflop ':915' stuck at GND
+Warning: Flipflop ':917' stuck at GND
+Warning: Flipflop ':918' stuck at GND
+Warning: Flipflop ':945' stuck at GND
+Warning: Flipflop ':946' stuck at GND
+Warning: Flipflop ':947' stuck at GND
+Warning: Flipflop ':949' stuck at GND
+Warning: Flipflop ':950' stuck at GND
+Warning: Flipflop ':951' stuck at GND
+Warning: Flipflop ':952' stuck at GND
+Warning: Flipflop ':979' stuck at GND
+Warning: Flipflop ':980' stuck at GND
+Warning: Flipflop ':981' stuck at GND
+Warning: Flipflop ':983' stuck at GND
+Warning: Flipflop ':984' stuck at GND
+Warning: Flipflop ':985' stuck at GND
+Warning: Flipflop ':1036' stuck at GND
+Warning: Flipflop ':1037' stuck at GND
+Warning: Flipflop ':1038' stuck at GND
+Warning: Flipflop ':1039' stuck at GND
+Warning: Flipflop ':1041' stuck at GND
+Warning: Flipflop ':1042' stuck at GND
+Error: Project does not fit in specified device(s)
+Info: Trying to find new partition/fit after discarding assignments as requested with the Partitioner/Fitter Status dialog box
+
+
+Project Information                           d:\maxplus\a_project\cpu\cpu.rpt
+
+** AUTO GLOBAL SIGNALS **
+
+
+
+INFO: Signal 'clk' chosen for auto global Clock
+
+
+Project Information                           d:\maxplus\a_project\cpu\cpu.rpt
+
+** MULTIPLE PIN CONNECTIONS **
+
+
+For node name 'T1'
+Connect: {cpu2@40,      cpu@6,        cpu1@49}
+
+For node name 'PC7'
+Connect: {cpu1@20,      cpu@73}
+
+For node name 'PC6'
+Connect: {cpu1@71,      cpu@27}
+
+For node name 'PC2'
+Connect: {cpu1@76,      cpu@79}
+
+For node name 'PC1'
+Connect: {cpu1@81,      cpu@10}
+
+For node name 'IR4'
+Connect: {cpu2@24,      cpu1@5}
+
+For node name 'IR3'
+Connect: {cpu2@41,      cpu@99}
+
+For node name 'IR2'
+Connect: {cpu2@44,      cpu@100}
+
+For node name 'IR1'
+Connect: {cpu2@63,      cpu@63}
+
+For node name 'IR0'
+Connect: {cpu2@64,      cpu@95}
+
+For node name 'A4'
+Connect: {cpu2@34,      cpu@98}
+
+For node name 'B4'
+Connect: {cpu2@29,      cpu@94}
+
+For node name 'BUS7'
+Connect: {cpu@43,       cpu1@84}
+
+For node name 'BUS6'
+Connect: {cpu@54,       cpu1@12}
+
+For node name 'BUS5'
+Connect: {cpu1@52,      cpu2@15,      cpu@11}
+
+For node name 'BUS4'
+Connect: {cpu1@16,      cpu2@17}
+
+For node name 'BUS3'
+Connect: {cpu1@55,      cpu@16,       cpu2@14}
+
+For node name 'BUS2'
+Connect: {cpu@58,       cpu2@12,      cpu1@54}
+
+For node name 'BUS1'
+Connect: {cpu@67,       cpu2@18,      cpu1@51}
+
+For node name 'BUS0'
+Connect: {cpu1@15,      cpu@18,       cpu2@11}
+
+For node name 'clk'
+Connect: {cpu2@83,      cpu1@83}
+
+For node name 'reset'
+Connect: {cpu2@16,      cpu1@50}
+
+For node name 'LDXXX2'
+Connect: {cpu1@57,      cpu@2,        cpu2@22}
+
+For node name 'LDXXX1'
+Connect: {cpu1@23,      cpu@4,        cpu2@20}
+
+For node name 'LDXXX0'
+Connect: {cpu1@28,      cpu@3,        cpu2@21}
+
+For node name 'S1'
+Connect: {cpu1@36,      cpu@8}
+
+For node name 'S0'
+Connect: {cpu1@37,      cpu@7}
+
+For node name '~528~1'
+Connect: {cpu@22,       cpu1@34}
+
+For node name '~529~1'
+Connect: {cpu@23,       cpu1@56}
+
+For node name '~530~1'
+Connect: {cpu@39,       cpu1@61}
+
+For node name '~533~1'
+Connect: {cpu@75,       cpu1@35}
+
+For node name '~287~1'
+Connect: {cpu@66,       cpu1@4}
+
+For node name 'XXX_B2'
+Connect: {cpu1@29,      cpu@1}
+
+For node name 'XXX_B1'
+Connect: {cpu1@40,      cpu@90}
+
+For node name 'XXX_B0'
+Connect: {cpu1@30,      cpu@82}
+
+For node name '~542~1'
+Connect: {cpu@65,       cpu1@10}
+
+For node name '~816~1'
+Connect: {cpu@59,       cpu1@8}
+
+For node name '~828~1'
+Connect: {cpu@71,       cpu1@9}
+
+For node name '~1031~1'
+Connect: {cpu@60,       cpu1@11}
+
+For node name '~1015~1'
+Connect: {cpu1@18,      cpu@77}
+
+For node name '~1016~1'
+Connect: {cpu1@17,      cpu@80}
+
+For node name '~802~1'
+Connect: {cpu2@79,      cpu1@62}
+
+For node name '~803~1'
+Connect: {cpu2@62,      cpu1@1}
+
+For node name '~804~1'
+Connect: {cpu2@28,      cpu1@80}
+
+For node name '~1020~1'
+Connect: {cpu1@69,      cpu@17}
+
+For node name '~805~1'
+Connect: {cpu2@60,      cpu@12}
+
+For node name '~1021~1'
+Connect: {cpu1@70,      cpu@15}
+
+For node name '~806~1'
+Connect: {cpu2@61,      cpu@14}
+
+For node name '~807~1'
+Connect: {cpu2@80,      cpu1@63}
+
+
+Project Information                           d:\maxplus\a_project\cpu\cpu.rpt
+
+** FILE HIERARCHY **
+
+
+
+|lpm_add_sub:1412|
+|lpm_add_sub:1412|addcore:adder|
+|lpm_add_sub:1412|altshift:result_ext_latency_ffs|
+|lpm_add_sub:1412|altshift:carry_ext_latency_ffs|
+|lpm_add_sub:1412|altshift:oflow_ext_latency_ffs|
+|lpm_add_sub:1413|
+|lpm_add_sub:1413|addcore:adder|
+|lpm_add_sub:1413|altshift:result_ext_latency_ffs|
+|lpm_add_sub:1413|altshift:carry_ext_latency_ffs|
+|lpm_add_sub:1413|altshift:oflow_ext_latency_ffs|
+
+
+Device-Specific Information:                  d:\maxplus\a_project\cpu\cpu.rpt
+cpu
+
+***** Logic for device 'cpu' compiled without errors.
+
+
+
+
+Device: EPM7096QC100-7
+
+Device Options:
+    Turbo Bit                                    = ON
+    Security Bit                                 = OFF
+    MultiVolt I/O                              = OFF
+
+
+
+Device-Specific Information:                  d:\maxplus\a_project\cpu\cpu.rpt
+cpu
+
+** ERROR SUMMARY **
+
+Info: Chip 'cpu' in device 'EPM7096QC100-7' has less than 20% of pins available for future logic changes -- if your project is likely to change, Altera recommends using a larger device
+                                                      
+                           V     X               X    
+                           C     X           V   X    
+                     N     C     X         N C   X    
+             I I   G . I   I G G _ G G     . C   _    
+             R R A N C R B N N N B N N A B C I B B A  
+             2 3 4 D . 0 4 T D D 1 D D 0 2 . O 1 0 1  
+           ------------------------------------------_ 
+          / 100  98  96  94  92  90  88  86  84  82   |_ 
+         /     99  97  95  93  91  89  87  85  83  81    | 
+ XXX_B2 |  1                                          80 | ~1016~1 
+ LDXXX2 |  2                                          79 | PC2 
+ LDXXX0 |  3                                          78 | ALU0 
+ LDXXX1 |  4                                          77 | ~1015~1 
+  VCCIO |  5                                          76 | GND 
+     T1 |  6                                          75 | ~533~1 
+     S0 |  7                                          74 | B0 
+     S1 |  8                                          73 | PC7 
+   N.C. |  9                                          72 | N.C. 
+    PC1 | 10                                          71 | ~828~1 
+   BUS5 | 11                                          70 | ALU6 
+ ~805~1 | 12                                          69 | ALU1 
+    GND | 13                                          68 | VCCIO 
+ ~806~1 | 14                                          67 | BUS1 
+~1021~1 | 15                                          66 | ~287~1 
+   BUS3 | 16             EPM7096QC100-7               65 | ~542~1 
+~1020~1 | 17                                          64 | ALU2 
+   BUS0 | 18                                          63 | IR1 
+   ALU4 | 19                                          62 | ALU7 
+  VCCIO | 20                                          61 | GND 
+   ALU5 | 21                                          60 | ~1031~1 
+ ~528~1 | 22                                          59 | ~816~1 
+ ~529~1 | 23                                          58 | BUS2 
+   N.C. | 24                                          57 | N.C. 
+    R07 | 25                                          56 | OUT7 
+    R17 | 26                                          55 | OUT6 
+    PC6 | 27                                          54 | BUS6 
+    GND | 28                                          53 | VCCIO 
+     A3 | 29                                          52 | R36 
+     B3 | 30                                          51 | B6 
+        |      32  34  36  38  40  42  44  46  48  50  _| 
+         \   31  33  35  37  39  41  43  45  47  49   | 
+          \------------------------------------------- 
+             A A R R B V N A ~ G V R B N G A R B R A  
+             L 2 3 2 5 C . 5 5 N C 0 U . N 7 2 7 1 6  
+             U   7 7   C C   3 D C 6 S C D   6   6    
+             3         I .   0   I   7 .              
+                       O     ~   N                    
+                             1   T                    
+                                                      
+
+
+N.C. = No Connect. This pin has no internal connection to the device.
+VCCINT = Dedicated power pin, which MUST be connected to VCC (5.0 volts).
+VCCIO = Dedicated power pin, which MUST be connected to VCC (5.0 volts).
+GND = Dedicated ground pin or unused dedicated input, which MUST be connected to GND.
+RESERVED = Unused I/O pin, which MUST be left unconnected.
+
+
+
+Device-Specific Information:                  d:\maxplus\a_project\cpu\cpu.rpt
+cpu
+
+** RESOURCE USAGE **
+
+                                                Shareable     External
+Logic Array Block     Logic Cells   I/O Pins    Expanders   Interconnect
+
+A:     LC1 - LC16     1/16(  6%)  12/12(100%)   0/16(  0%)   6/36( 16%) 
+B:    LC17 - LC32     6/16( 37%)  12/12(100%)   6/16( 37%)  11/36( 30%) 
+C:    LC33 - LC48    13/16( 81%)  12/12(100%)   3/16( 18%)  26/36( 72%) 
+D:    LC49 - LC64    12/16( 75%)  12/12(100%)  12/16( 75%)  34/36( 94%) 
+E:    LC65 - LC80    15/16( 93%)  12/12(100%)  16/16(100%)  26/36( 72%) 
+F:    LC81 - LC96    16/16(100%)  12/12(100%)  16/16(100%)  30/36( 83%) 
+
+
+Total dedicated input pins used:                 1/4      ( 25%)
+Total I/O pins used:                            72/72     (100%)
+Total logic cells used:                         63/96     ( 65%)
+Total shareable expanders used:                 42/96     ( 43%)
+Total Turbo logic cells used:                   63/96     ( 65%)
+Total shareable expanders not available (n/a):  11/96     ( 11%)
+Average fan-in:                                  6.57
+Total fan-in:                                   414
+
+Total input pins required:                      28
+Total output pins required:                     45
+Total bidirectional pins required:               0
+Total logic cells required:                     63
+Total flipflops required:                       24
+Total product terms required:                  237
+Total logic cells lending parallel expanders:    0
+Total shareable expanders in database:          38
+
+Synthesized logic cells:                        21/  96   ( 21%)
+
+
+
+Device-Specific Information:                  d:\maxplus\a_project\cpu\cpu.rpt
+cpu
+
+** INPUTS **
+
+                                         Shareable
+                                         Expanders     Fan-In    Fan-Out
+ Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
+  98   (13)  (A)      INPUT    s          0      0   0    0    0    2    5  A4
+  18   (22)  (B)      INPUT    s          0      0   0    0    0    2    0  BUS0
+  16   (25)  (B)      INPUT    s          0      0   0    0    0    2    0  BUS3
+  11   (30)  (B)      INPUT    s          0      0   0    0    0    2    0  BUS5
+  94   (16)  (A)      INPUT    s          0      0   0    0    0    2    5  B4
+  95   (14)  (A)      INPUT    s          0      0   0    0    0    0    2  IR0
+  63   (70)  (E)      INPUT    s          0      0   0    0    0    0    2  IR1
+ 100   (11)  (A)      INPUT    s          0      0   0    0    0    8    0  IR2
+  99   (12)  (A)      INPUT    s          0      0   0    0    0    8    0  IR3
+   3    (6)  (A)      INPUT    s          0      0   0    0    0   24    0  LDXXX0
+   4    (5)  (A)      INPUT    s          0      0   0    0    0   24    0  LDXXX1
+   2    (8)  (A)      INPUT    s          0      0   0    0    0   24    0  LDXXX2
+  10   (32)  (B)      INPUT    s          0      0   0    0    0    1    0  PC1
+  79   (88)  (F)      INPUT    s          0      0   0    0    0    1    0  PC2
+  27   (45)  (C)      INPUT    s          0      0   0    0    0    1    0  PC6
+  73   (81)  (F)      INPUT    s          0      0   0    0    0    1    0  PC7
+   7    (3)  (A)      INPUT    s          0      0   0    0    0   12    6  S0
+   8    (1)  (A)      INPUT    s          0      0   0    0    0   12    6  S1
+   6    (4)  (A)      INPUT    s          0      0   0    0    0   24    0  T1
+  82   (92)  (F)      INPUT    s          0      0   0    0    0    9    0  XXX_B0
+  90      -   -       INPUT    s          0      0   0    0    0    9    0  XXX_B1
+   1    (9)  (A)      INPUT    s          0      0   0    0    0    9    0  XXX_B2
+  12   (29)  (B)      INPUT    s          0      0   0    0    0    1    0  ~805~1
+  14   (28)  (B)      INPUT    s          0      0   0    0    0    1    0  ~806~1
+  77   (85)  (F)      INPUT    s          0      0   0    0    0    1    0  ~1015~1
+  80   (89)  (F)      INPUT    s          0      0   0    0    0    1    0  ~1016~1
+  17   (24)  (B)      INPUT    s          0      0   0    0    0    1    0  ~1020~1
+  15   (27)  (B)      INPUT    s          0      0   0    0    0    1    0  ~1021~1
+
+
+Code:
+
+s = Synthesized pin or logic cell
+t = Turbo logic cell
++ = Synchronous flipflop
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+
+
+Device-Specific Information:                  d:\maxplus\a_project\cpu\cpu.rpt
+cpu
+
+** OUTPUTS **
+
+                                         Shareable
+                                         Expanders     Fan-In    Fan-Out
+ Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
+  78     86    F     OUTPUT      t        1      0   1    4   16    0    0  ALU0
+  69     77    E     OUTPUT      t        0      0   0    2    2    0    0  ALU1
+  64     72    E     OUTPUT      t        0      0   0    2    2    0    0  ALU2
+  31     41    C     OUTPUT      t        0      0   0    2    2    0    0  ALU3
+  19     21    B     OUTPUT      t        0      0   0    2    2    0    0  ALU4
+  21     20    B     OUTPUT      t        0      0   0    2    2    0    0  ALU5
+  70     78    E     OUTPUT      t        0      0   0    2    2    0    0  ALU6
+  62     69    E     OUTPUT      t        0      0   0    2    2    0    0  ALU7
+  87     96    F         FF      t        0      0   0    5    1    3    6  A0
+  81     91    F         FF      t        0      0   0    4    2    3    5  A1
+  32     40    C         FF      t        0      0   0    4    2    3    4  A2
+  29     44    C         FF      t        0      0   0    5    1    3    3  A3
+  38     35    C         FF      t        0      0   0    5    1    3    4  A5
+  50     57    D         FF      t        0      0   0    4    2    3    3  A6
+  46     52    D         FF      t        0      0   0    4    2    3    2  A7
+  67     76    E     OUTPUT    s t        6      0   0    6    7    3    0  BUS1
+  58     65    E     OUTPUT    s t        6      0   0    6    7    3    0  BUS2
+  54     61    D     OUTPUT    s t        6      0   0    5    8    8    0  BUS6
+  43     51    D     OUTPUT    s t        6      0   0    5    8    8    0  BUS7
+  74     83    F         FF      t        0      0   0    5    1    3    6  B0
+  83     93    F         FF      t        0      0   0    4    2    3    5  B1
+  86     94    F         FF      t        0      0   0    4    2    3    4  B2
+  30     43    C         FF      t        0      0   0    5    1    3    3  B3
+  35     36    C         FF      t        0      0   0    5    1    3    4  B5
+  51     59    D         FF      t        0      0   0    4    2    3    3  B6
+  48     54    D         FF      t        0      0   0    4    2    3    2  B7
+  55     62    D         FF      t        0      0   0    4    2    1    0  OUT6
+  56     64    D         FF      t        0      0   0    4    2    1    0  OUT7
+  42     49    D         FF      t        0      0   0    6    2    1    1  R06
+  25     48    C         FF      t        0      0   0    6    2    1    1  R07
+  49     56    D         FF      t        0      0   0    6    2    1    1  R16
+  26     46    C         FF      t        0      0   0    6    2    1    1  R17
+  47     53    D         FF      t        0      0   0    6    2    1    1  R26
+  34     37    C         FF      t        0      0   0    6    2    1    1  R27
+  52     60    D         FF      t        0      0   0    6    2    1    1  R36
+  33     38    C         FF      t        0      0   0    6    2    1    1  R37
+  66     75    E     OUTPUT    s t        0      0   0    3    0    4    0  ~287~1
+  22     19    B     OUTPUT    s t        1      0   1    2    2    2    0  ~528~1
+  23     17    B     OUTPUT    s t        1      0   1    2    2    2    0  ~529~1
+  39     33    C     OUTPUT    s t        1      0   1    2    2    2    0  ~530~1
+  75     84    F     OUTPUT    s t        1      0   1    4   17    2    2  ~533~1
+  65     73    E     OUTPUT    s t        0      0   0    3    0    4    0  ~542~1
+  59     67    E     OUTPUT    s t        0      0   0    3    0    4    0  ~816~1
+  71     80    E     OUTPUT    s t        0      0   0    3    0    4    0  ~828~1
+  60     68    E     OUTPUT    s t        0      0   0    3    0    4    0  ~1031~1
+
+
+Code:
+
+s = Synthesized pin or logic cell
+t = Turbo logic cell
++ = Synchronous flipflop
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+
+
+Device-Specific Information:                  d:\maxplus\a_project\cpu\cpu.rpt
+cpu
+
+** BURIED LOGIC **
+
+                                         Shareable
+                                         Expanders     Fan-In    Fan-Out
+ Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
+ (80)    89    F       SOFT      t        2      2   0    0    6    0    1  |lpm_add_sub:1412|addcore:adder|gcp2
+ (77)    85    F       SOFT      t        4      4   0    0    8    0    4  |lpm_add_sub:1412|addcore:adder|g4
+   -     82    F       SOFT      t        0      0   0    0    2    2    2  |lpm_add_sub:1412|addcore:adder|result_node0
+   -     90    F       SOFT      t        2      1   0    0    4    1    1  |lpm_add_sub:1412|addcore:adder|result_node1
+ (79)    88    F       SOFT      t        3      2   0    0    6    1    1  |lpm_add_sub:1412|addcore:adder|result_node2
+   -     34    C       SOFT      t        2      2   0    0    3    2    0  |lpm_add_sub:1412|addcore:adder|result_node3
+   -     23    B       SOFT      t        2      1   0    2    1    2    0  |lpm_add_sub:1412|addcore:adder|result_node4
+   -     26    B       SOFT      t        3      2   0    2    3    2    0  |lpm_add_sub:1412|addcore:adder|result_node5
+   -     87    F       SOFT      t        4      3   0    2    5    1    1  |lpm_add_sub:1412|addcore:adder|result_node6
+ (82)    92    F       SOFT      t        6      3   1    2    7    1    1  |lpm_add_sub:1412|addcore:adder|result_node7
+   -     66    E      LCELL    s t        1      0   1    2    2    2    1  ~526~1
+ (63)    70    E      LCELL    s t        1      0   1    2    2    2    1  ~527~1
+   -     79    E      LCELL    s t        1      0   1    2    2    2    1  ~531~1
+   -     74    E      LCELL    s t        1      0   1    2    2    2    1  ~532~1
+   -     95    F      LCELL    s t        1      0   1    4   16    0    1  ~533~1~2
+ (73)    81    F      LCELL    s t        0      0   0    2    3    1    0  ~533~1~3
+   -     39    C       SOFT    s t        0      0   0    2    4    1    0  ~800~1
+   -      7    A       SOFT    s t        0      0   0    2    4    1    0  ~801~1
+
+
+Code:
+
+s = Synthesized pin or logic cell
+t = Turbo logic cell
++ = Synchronous flipflop
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+
+
+Device-Specific Information:                  d:\maxplus\a_project\cpu\cpu.rpt
+cpu
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'A':
+
+           Logic cells placed in LAB 'A'
+        +- LC7 ~801~1
+        | 
+        |   Other LABs fed by signals
+        |   that feed LAB 'A'
+LC      | | A B C D E F |     Logic cells that feed LAB 'A':
+
+Pin
+95   -> * | * - * - - - | <-- IR0
+63   -> * | * - * - - - | <-- IR1
+90   -> - | - - - * * - | <-- XXX_B1
+LC49 -> * | * - - * - - | <-- R06
+LC56 -> * | * - - * - - | <-- R16
+LC53 -> * | * - - * - - | <-- R26
+LC60 -> * | * - - * - - | <-- R36
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:                  d:\maxplus\a_project\cpu\cpu.rpt
+cpu
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'B':
+
+                     Logic cells placed in LAB 'B'
+        +----------- LC21 ALU4
+        | +--------- LC20 ALU5
+        | | +------- LC23 |lpm_add_sub:1412|addcore:adder|result_node4
+        | | | +----- LC26 |lpm_add_sub:1412|addcore:adder|result_node5
+        | | | | +--- LC19 ~528~1
+        | | | | | +- LC17 ~529~1
+        | | | | | | 
+        | | | | | |   Other LABs fed by signals
+        | | | | | |   that feed LAB 'B'
+LC      | | | | | | | A B C D E F |     Logic cells that feed LAB 'B':
+LC23 -> * - - - - * | - * - - - - | <-- |lpm_add_sub:1412|addcore:adder|result_node4
+LC26 -> - * - - * - | - * - - - - | <-- |lpm_add_sub:1412|addcore:adder|result_node5
+LC19 -> - * - - * - | - * - - - - | <-- ~528~1
+LC17 -> * - - - - * | - * - - - - | <-- ~529~1
+
+Pin
+98   -> - - * * - - | - * - - - * | <-- A4
+94   -> - - * * - - | - * - - - * | <-- B4
+7    -> * * - - * * | - * * - * * | <-- S0
+8    -> * * - - * * | - * * - * * | <-- S1
+90   -> - - - - - - | - - - * * - | <-- XXX_B1
+LC35 -> - - - * - - | - * * - - * | <-- A5
+LC36 -> - - - * - - | - * * - - * | <-- B5
+LC85 -> - - * * - - | - * - - - * | <-- |lpm_add_sub:1412|addcore:adder|g4
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:                  d:\maxplus\a_project\cpu\cpu.rpt
+cpu
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'C':
+
+                                   Logic cells placed in LAB 'C'
+        +------------------------- LC41 ALU3
+        | +----------------------- LC40 A2
+        | | +--------------------- LC44 A3
+        | | | +------------------- LC35 A5
+        | | | | +----------------- LC43 B3
+        | | | | | +--------------- LC36 B5
+        | | | | | | +------------- LC34 |lpm_add_sub:1412|addcore:adder|result_node3
+        | | | | | | | +----------- LC48 R07
+        | | | | | | | | +--------- LC46 R17
+        | | | | | | | | | +------- LC37 R27
+        | | | | | | | | | | +----- LC38 R37
+        | | | | | | | | | | | +--- LC33 ~530~1
+        | | | | | | | | | | | | +- LC39 ~800~1
+        | | | | | | | | | | | | | 
+        | | | | | | | | | | | | |   Other LABs fed by signals
+        | | | | | | | | | | | | |   that feed LAB 'C'
+LC      | | | | | | | | | | | | | | A B C D E F |     Logic cells that feed LAB 'C':
+LC40 -> - * - - - - - - - - - - - | - - * - - * | <-- A2
+LC44 -> - - * - - - * - - - - - - | - - * - - * | <-- A3
+LC35 -> - - - * - - - - - - - - - | - * * - - * | <-- A5
+LC43 -> - - - - * - * - - - - - - | - - * - - * | <-- B3
+LC36 -> - - - - - * - - - - - - - | - * * - - * | <-- B5
+LC34 -> * - - - - - - - - - - * - | - - * - - - | <-- |lpm_add_sub:1412|addcore:adder|result_node3
+LC48 -> - - - - - - - * - - - - * | - - * - - - | <-- R07
+LC46 -> - - - - - - - - * - - - * | - - * - - - | <-- R17
+LC37 -> - - - - - - - - - * - - * | - - * - - - | <-- R27
+LC38 -> - - - - - - - - - - * - * | - - * - - - | <-- R37
+LC33 -> * - - - - - - - - - - * - | - - * - - - | <-- ~530~1
+
+Pin
+16   -> - - * - * - - - - - - - - | - - * - - - | <-- BUS3
+11   -> - - - * - * - - - - - - - | - - * - - - | <-- BUS5
+95   -> - - - - - - - - - - - - * | * - * - - - | <-- IR0
+63   -> - - - - - - - - - - - - * | * - * - - - | <-- IR1
+100  -> - - - - - - - * * * * - - | - - * * - - | <-- IR2
+99   -> - - - - - - - * * * * - - | - - * * - - | <-- IR3
+3    -> - * * * * * - * * * * - - | - - * * - * | <-- LDXXX0
+4    -> - * * * * * - * * * * - - | - - * * - * | <-- LDXXX1
+2    -> - * * * * * - * * * * - - | - - * * - * | <-- LDXXX2
+7    -> * - - - - - - - - - - * - | - * * - * * | <-- S0
+8    -> * - - - - - - - - - - * - | - * * - * * | <-- S1
+6    -> - * * * * * - * * * * - - | - - * * - * | <-- T1
+90   -> - - - - - - - - - - - - - | - - - * * - | <-- XXX_B1
+LC65 -> - * - - - - - - - - - - - | - - * - * * | <-- BUS2
+LC51 -> - - - - - - - * * * * - - | - - * * - - | <-- BUS7
+LC89 -> - - - - - - * - - - - - - | - - * - - - | <-- |lpm_add_sub:1412|addcore:adder|gcp2
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:                  d:\maxplus\a_project\cpu\cpu.rpt
+cpu
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'D':
+
+                                 Logic cells placed in LAB 'D'
+        +----------------------- LC57 A6
+        | +--------------------- LC52 A7
+        | | +------------------- LC61 BUS6
+        | | | +----------------- LC51 BUS7
+        | | | | +--------------- LC59 B6
+        | | | | | +------------- LC54 B7
+        | | | | | | +----------- LC62 OUT6
+        | | | | | | | +--------- LC64 OUT7
+        | | | | | | | | +------- LC49 R06
+        | | | | | | | | | +----- LC56 R16
+        | | | | | | | | | | +--- LC53 R26
+        | | | | | | | | | | | +- LC60 R36
+        | | | | | | | | | | | | 
+        | | | | | | | | | | | |   Other LABs fed by signals
+        | | | | | | | | | | | |   that feed LAB 'D'
+LC      | | | | | | | | | | | | | A B C D E F |     Logic cells that feed LAB 'D':
+LC57 -> * - - - - - - - - - - - | - - - * - * | <-- A6
+LC52 -> - * - - - - - - - - - - | - - - * - * | <-- A7
+LC61 -> * - * - * - * - * * * * | - - - * - - | <-- BUS6
+LC51 -> - * - * - * - * - - - - | - - * * - - | <-- BUS7
+LC59 -> - - - - * - - - - - - - | - - - * - * | <-- B6
+LC54 -> - - - - - * - - - - - - | - - - * - * | <-- B7
+LC62 -> - - - - - - * - - - - - | - - - * - - | <-- OUT6
+LC64 -> - - - - - - - * - - - - | - - - * - - | <-- OUT7
+LC49 -> - - - - - - - - * - - - | * - - * - - | <-- R06
+LC56 -> - - - - - - - - - * - - | * - - * - - | <-- R16
+LC53 -> - - - - - - - - - - * - | * - - * - - | <-- R26
+LC60 -> - - - - - - - - - - - * | * - - * - - | <-- R36
+
+Pin
+100  -> - - - - - - - - * * * * | - - * * - - | <-- IR2
+99   -> - - - - - - - - * * * * | - - * * - - | <-- IR3
+3    -> * * - - * * * * * * * * | - - * * - * | <-- LDXXX0
+4    -> * * - - * * * * * * * * | - - * * - * | <-- LDXXX1
+2    -> * * - - * * * * * * * * | - - * * - * | <-- LDXXX2
+27   -> - - * - - - - - - - - - | - - - * - - | <-- PC6
+73   -> - - - * - - - - - - - - | - - - * - - | <-- PC7
+6    -> * * - - * * * * * * * * | - - * * - * | <-- T1
+82   -> - - * * - - - - - - - - | - - - * * - | <-- XXX_B0
+90   -> - - * * - - - - - - - - | - - - * * - | <-- XXX_B1
+1    -> - - * * - - - - - - - - | - - - * * - | <-- XXX_B2
+77   -> - - - * - - - - - - - - | - - - * - - | <-- ~1015~1
+80   -> - - * - - - - - - - - - | - - - * - - | <-- ~1016~1
+LC75 -> - - * * - - - - - - - - | - - - * * - | <-- ~287~1
+LC66 -> - - - * - - - - - - - - | - - - * * - | <-- ~526~1
+LC70 -> - - * - - - - - - - - - | - - - * * - | <-- ~527~1
+LC73 -> - - * * - - - - - - - - | - - - * * - | <-- ~542~1
+LC39 -> - - - * - - - - - - - - | - - - * - - | <-- ~800~1
+LC7  -> - - * - - - - - - - - - | - - - * - - | <-- ~801~1
+LC67 -> - - * * - - - - - - - - | - - - * * - | <-- ~816~1
+LC80 -> - - * * - - - - - - - - | - - - * * - | <-- ~828~1
+LC68 -> - - * * - - - - - - - - | - - - * * - | <-- ~1031~1
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:                  d:\maxplus\a_project\cpu\cpu.rpt
+cpu
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'E':
+
+                                       Logic cells placed in LAB 'E'
+        +----------------------------- LC77 ALU1
+        | +--------------------------- LC72 ALU2
+        | | +------------------------- LC78 ALU6
+        | | | +----------------------- LC69 ALU7
+        | | | | +--------------------- LC76 BUS1
+        | | | | | +------------------- LC65 BUS2
+        | | | | | | +----------------- LC75 ~287~1
+        | | | | | | | +--------------- LC66 ~526~1
+        | | | | | | | | +------------- LC70 ~527~1
+        | | | | | | | | | +----------- LC79 ~531~1
+        | | | | | | | | | | +--------- LC74 ~532~1
+        | | | | | | | | | | | +------- LC73 ~542~1
+        | | | | | | | | | | | | +----- LC67 ~816~1
+        | | | | | | | | | | | | | +--- LC80 ~828~1
+        | | | | | | | | | | | | | | +- LC68 ~1031~1
+        | | | | | | | | | | | | | | | 
+        | | | | | | | | | | | | | | |   Other LABs fed by signals
+        | | | | | | | | | | | | | | |   that feed LAB 'E'
+LC      | | | | | | | | | | | | | | | | A B C D E F |     Logic cells that feed LAB 'E':
+LC76 -> - - - - * - - - - - - - - - - | - - - - * * | <-- BUS1
+LC65 -> - - - - - * - - - - - - - - - | - - * - * * | <-- BUS2
+LC75 -> - - - - * * - - - - - - - - - | - - - * * - | <-- ~287~1
+LC66 -> - - - * - - - * - - - - - - - | - - - * * - | <-- ~526~1
+LC70 -> - - * - - - - - * - - - - - - | - - - * * - | <-- ~527~1
+LC79 -> - * - - - * - - - * - - - - - | - - - - * - | <-- ~531~1
+LC74 -> * - - - * - - - - - * - - - - | - - - - * - | <-- ~532~1
+LC73 -> - - - - * * - - - - - - - - - | - - - * * - | <-- ~542~1
+LC67 -> - - - - * * - - - - - - - - - | - - - * * - | <-- ~816~1
+LC80 -> - - - - * * - - - - - - - - - | - - - * * - | <-- ~828~1
+LC68 -> - - - - * * - - - - - - - - - | - - - * * - | <-- ~1031~1
+
+Pin
+10   -> - - - - * - - - - - - - - - - | - - - - * - | <-- PC1
+79   -> - - - - - * - - - - - - - - - | - - - - * - | <-- PC2
+7    -> * * * * - - - * * * * - - - - | - * * - * * | <-- S0
+8    -> * * * * - - - * * * * - - - - | - * * - * * | <-- S1
+82   -> - - - - * * * - - - - * * * * | - - - * * - | <-- XXX_B0
+90   -> - - - - * * * - - - - * * * * | - - - * * - | <-- XXX_B1
+1    -> - - - - * * * - - - - * * * * | - - - * * - | <-- XXX_B2
+12   -> - - - - - * - - - - - - - - - | - - - - * - | <-- ~805~1
+14   -> - - - - * - - - - - - - - - - | - - - - * - | <-- ~806~1
+17   -> - - - - - * - - - - - - - - - | - - - - * - | <-- ~1020~1
+15   -> - - - - * - - - - - - - - - - | - - - - * - | <-- ~1021~1
+LC90 -> * - - - - - - - - - * - - - - | - - - - * - | <-- |lpm_add_sub:1412|addcore:adder|result_node1
+LC88 -> - * - - - - - - - * - - - - - | - - - - * - | <-- |lpm_add_sub:1412|addcore:adder|result_node2
+LC87 -> - - * - - - - - * - - - - - - | - - - - * - | <-- |lpm_add_sub:1412|addcore:adder|result_node6
+LC92 -> - - - * - - - * - - - - - - - | - - - - * - | <-- |lpm_add_sub:1412|addcore:adder|result_node7
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:                  d:\maxplus\a_project\cpu\cpu.rpt
+cpu
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'F':
+
+                                         Logic cells placed in LAB 'F'
+        +------------------------------- LC86 ALU0
+        | +----------------------------- LC96 A0
+        | | +--------------------------- LC91 A1
+        | | | +------------------------- LC83 B0
+        | | | | +----------------------- LC93 B1
+        | | | | | +--------------------- LC94 B2
+        | | | | | | +------------------- LC89 |lpm_add_sub:1412|addcore:adder|gcp2
+        | | | | | | | +----------------- LC85 |lpm_add_sub:1412|addcore:adder|g4
+        | | | | | | | | +--------------- LC82 |lpm_add_sub:1412|addcore:adder|result_node0
+        | | | | | | | | | +------------- LC90 |lpm_add_sub:1412|addcore:adder|result_node1
+        | | | | | | | | | | +----------- LC88 |lpm_add_sub:1412|addcore:adder|result_node2
+        | | | | | | | | | | | +--------- LC87 |lpm_add_sub:1412|addcore:adder|result_node6
+        | | | | | | | | | | | | +------- LC92 |lpm_add_sub:1412|addcore:adder|result_node7
+        | | | | | | | | | | | | | +----- LC95 ~533~1~2
+        | | | | | | | | | | | | | | +--- LC81 ~533~1~3
+        | | | | | | | | | | | | | | | +- LC84 ~533~1
+        | | | | | | | | | | | | | | | | 
+        | | | | | | | | | | | | | | | |   Other LABs fed by signals
+        | | | | | | | | | | | | | | | |   that feed LAB 'F'
+LC      | | | | | | | | | | | | | | | | | A B C D E F |     Logic cells that feed LAB 'F':
+LC96 -> * * - - - - * * * * * - - * - * | - - - - - * | <-- A0
+LC91 -> * - * - - - * * - * * - - * - * | - - - - - * | <-- A1
+LC83 -> * - - * - - * * * * * - - * - * | - - - - - * | <-- B0
+LC93 -> * - - - * - * * - * * - - * - * | - - - - - * | <-- B1
+LC94 -> * - - - - * * * - - * - - * - * | - - - - - * | <-- B2
+LC85 -> - - - - - - - - - - - * * - - - | - * - - - * | <-- |lpm_add_sub:1412|addcore:adder|g4
+LC82 -> * - - - - - - - - - - - - * * * | - - - - - * | <-- |lpm_add_sub:1412|addcore:adder|result_node0
+LC95 -> - - - - - - - - - - - - - - * - | - - - - - * | <-- ~533~1~2
+LC81 -> - - - - - - - - - - - - - - - * | - - - - - * | <-- ~533~1~3
+LC84 -> * - - - - - - - - - - - - * * * | - - - - - * | <-- ~533~1
+
+Pin
+98   -> * - - - - - - - - - - * * * - * | - * - - - * | <-- A4
+18   -> - * - * - - - - - - - - - - - - | - - - - - * | <-- BUS0
+94   -> * - - - - - - - - - - * * * - * | - * - - - * | <-- B4
+3    -> - * * * * * - - - - - - - - - - | - - * * - * | <-- LDXXX0
+4    -> - * * * * * - - - - - - - - - - | - - * * - * | <-- LDXXX1
+2    -> - * * * * * - - - - - - - - - - | - - * * - * | <-- LDXXX2
+7    -> * - - - - - - - - - - - - * * * | - * * - * * | <-- S0
+8    -> * - - - - - - - - - - - - * * * | - * * - * * | <-- S1
+6    -> - * * * * * - - - - - - - - - - | - - * * - * | <-- T1
+90   -> - - - - - - - - - - - - - - - - | - - - * * - | <-- XXX_B1
+LC40 -> * - - - - - * * - - * - - * - * | - - * - - * | <-- A2
+LC44 -> * - - - - - - * - - - - - * - * | - - * - - * | <-- A3
+LC35 -> * - - - - - - - - - - * * * - * | - * * - - * | <-- A5
+LC57 -> * - - - - - - - - - - * * * - * | - - - * - * | <-- A6
+LC52 -> * - - - - - - - - - - - * * - * | - - - * - * | <-- A7
+LC76 -> - - * - * - - - - - - - - - - - | - - - - * * | <-- BUS1
+LC65 -> - - - - - * - - - - - - - - - - | - - * - * * | <-- BUS2
+LC43 -> * - - - - - - * - - - - - * - * | - - * - - * | <-- B3
+LC36 -> * - - - - - - - - - - * * * - * | - * * - - * | <-- B5
+LC59 -> * - - - - - - - - - - * * * - * | - - - * - * | <-- B6
+LC54 -> * - - - - - - - - - - - * * - * | - - - * - * | <-- B7
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:                  d:\maxplus\a_project\cpu\cpu.rpt
+cpu
+
+** EQUATIONS **
+
+A4       : INPUT;
+BUS0     : INPUT;
+BUS3     : INPUT;
+BUS5     : INPUT;
+B4       : INPUT;
+IR0      : INPUT;
+IR1      : INPUT;
+IR2      : INPUT;
+IR3      : INPUT;
+LDXXX0   : INPUT;
+LDXXX1   : INPUT;
+LDXXX2   : INPUT;
+PC1      : INPUT;
+PC2      : INPUT;
+PC6      : INPUT;
+PC7      : INPUT;
+S0       : INPUT;
+S1       : INPUT;
+T1       : INPUT;
+XXX_B0   : INPUT;
+XXX_B1   : INPUT;
+XXX_B2   : INPUT;
+~805~1   : INPUT;
+~806~1   : INPUT;
+~1015~1  : INPUT;
+~1016~1  : INPUT;
+~1020~1  : INPUT;
+~1021~1  : INPUT;
+
+-- Node name is 'ALU0' 
+-- Equation name is 'ALU0', location is LC086, type is output.
+ ALU0    = LCELL( _EQ001 $  VCC);
+  _EQ001 = !A0 & !A1 & !A2 & !A3 & !A4 & !A5 & !A6 & !A7 & !S0 &  S1
+         # !B0 & !B1 & !B2 & !B3 & !B4 & !B5 & !B6 & !B7 & !S0 &  S1
+         #  S0 &  S1 & !~533~1
+         # !_LC082 &  S0 & !S1
+         # !S0 & !S1 & !~533~1;
+
+-- Node name is 'ALU1' 
+-- Equation name is 'ALU1', location is LC077, type is output.
+ ALU1    = LCELL( _EQ002 $  GND);
+  _EQ002 =  _LC074 &  S0 &  S1
+         #  _LC090 &  S0 & !S1
+         #  _LC074 & !S0 & !S1;
+
+-- Node name is 'ALU2' 
+-- Equation name is 'ALU2', location is LC072, type is output.
+ ALU2    = LCELL( _EQ003 $  GND);
+  _EQ003 =  _LC079 &  S0 &  S1
+         #  _LC088 &  S0 & !S1
+         #  _LC079 & !S0 & !S1;
+
+-- Node name is 'ALU3' 
+-- Equation name is 'ALU3', location is LC041, type is output.
+ ALU3    = LCELL( _EQ004 $  GND);
+  _EQ004 =  S0 &  S1 &  ~530~1
+         #  _LC034 &  S0 & !S1
+         # !S0 & !S1 &  ~530~1;
+
+-- Node name is 'ALU4' 
+-- Equation name is 'ALU4', location is LC021, type is output.
+ ALU4    = LCELL( _EQ005 $  GND);
+  _EQ005 =  S0 &  S1 &  ~529~1
+         #  _LC023 &  S0 & !S1
+         # !S0 & !S1 &  ~529~1;
+
+-- Node name is 'ALU5' 
+-- Equation name is 'ALU5', location is LC020, type is output.
+ ALU5    = LCELL( _EQ006 $  GND);
+  _EQ006 =  S0 &  S1 &  ~528~1
+         #  _LC026 &  S0 & !S1
+         # !S0 & !S1 &  ~528~1;
+
+-- Node name is 'ALU6' 
+-- Equation name is 'ALU6', location is LC078, type is output.
+ ALU6    = LCELL( _EQ007 $  GND);
+  _EQ007 =  _LC070 &  S0 &  S1
+         #  _LC087 &  S0 & !S1
+         #  _LC070 & !S0 & !S1;
+
+-- Node name is 'ALU7' 
+-- Equation name is 'ALU7', location is LC069, type is output.
+ ALU7    = LCELL( _EQ008 $  GND);
+  _EQ008 =  _LC066 &  S0 &  S1
+         #  _LC092 &  S0 & !S1
+         #  _LC066 & !S0 & !S1;
+
+-- Node name is 'A0' = ':456' 
+-- Equation name is 'A0', type is output 
+ A0      = TFFE( _EQ009, !T1,  VCC,  VCC,  VCC);
+  _EQ009 = !A0 &  BUS0 &  LDXXX0 & !LDXXX1 & !LDXXX2
+         #  A0 & !BUS0 &  LDXXX0 & !LDXXX1 & !LDXXX2;
+
+-- Node name is 'A1' = ':455' 
+-- Equation name is 'A1', type is output 
+ A1      = TFFE( _EQ010, !T1,  VCC,  VCC,  VCC);
+  _EQ010 = !A1 &  BUS1 &  LDXXX0 & !LDXXX1 & !LDXXX2
+         #  A1 & !BUS1 &  LDXXX0 & !LDXXX1 & !LDXXX2;
+
+-- Node name is 'A2' = ':454' 
+-- Equation name is 'A2', type is output 
+ A2      = TFFE( _EQ011, !T1,  VCC,  VCC,  VCC);
+  _EQ011 = !A2 &  BUS2 &  LDXXX0 & !LDXXX1 & !LDXXX2
+         #  A2 & !BUS2 &  LDXXX0 & !LDXXX1 & !LDXXX2;
+
+-- Node name is 'A3' = ':453' 
+-- Equation name is 'A3', type is output 
+ A3      = TFFE( _EQ012, !T1,  VCC,  VCC,  VCC);
+  _EQ012 = !A3 &  BUS3 &  LDXXX0 & !LDXXX1 & !LDXXX2
+         #  A3 & !BUS3 &  LDXXX0 & !LDXXX1 & !LDXXX2;
+
+-- Node name is 'A5' = ':451' 
+-- Equation name is 'A5', type is output 
+ A5      = TFFE( _EQ013, !T1,  VCC,  VCC,  VCC);
+  _EQ013 = !A5 &  BUS5 &  LDXXX0 & !LDXXX1 & !LDXXX2
+         #  A5 & !BUS5 &  LDXXX0 & !LDXXX1 & !LDXXX2;
+
+-- Node name is 'A6' = ':450' 
+-- Equation name is 'A6', type is output 
+ A6      = TFFE( _EQ014, !T1,  VCC,  VCC,  VCC);
+  _EQ014 = !A6 &  BUS6 &  LDXXX0 & !LDXXX1 & !LDXXX2
+         #  A6 & !BUS6 &  LDXXX0 & !LDXXX1 & !LDXXX2;
+
+-- Node name is 'A7' = ':449' 
+-- Equation name is 'A7', type is output 
+ A7      = TFFE( _EQ015, !T1,  VCC,  VCC,  VCC);
+  _EQ015 = !A7 &  BUS7 &  LDXXX0 & !LDXXX1 & !LDXXX2
+         #  A7 & !BUS7 &  LDXXX0 & !LDXXX1 & !LDXXX2;
+
+-- Node name is 'BUS1' = '~1080~1' 
+-- Equation name is 'BUS1', location is LC076, type is output.
+ BUS1    = LCELL( _EQ016 $  VCC);
+  _EQ016 =  _X001 &  _X002 &  _X003 &  _X004 &  _X005 &  _X006;
+  _X001  = EXP(!XXX_B0 &  XXX_B1 &  XXX_B2 &  ~1021~1);
+  _X002  = EXP( BUS1 & !~287~1 & !~542~1 & !~816~1 & !~828~1 & !~1031~1);
+  _X003  = EXP( PC1 &  XXX_B0 &  XXX_B1 & !XXX_B2);
+  _X004  = EXP(!XXX_B0 &  XXX_B1 & !XXX_B2 &  ~806~1);
+  _X005  = EXP( _LC074 &  XXX_B0 & !XXX_B1 & !XXX_B2);
+  _X006  = EXP( BUS1 & !XXX_B0 & !XXX_B1 & !XXX_B2);
+
+-- Node name is 'BUS2' = '~1079~1' 
+-- Equation name is 'BUS2', location is LC065, type is output.
+ BUS2    = LCELL( _EQ017 $  VCC);
+  _EQ017 =  _X007 &  _X008 &  _X009 &  _X010 &  _X011 &  _X012;
+  _X007  = EXP(!XXX_B0 &  XXX_B1 &  XXX_B2 &  ~1020~1);
+  _X008  = EXP( BUS2 & !~287~1 & !~542~1 & !~816~1 & !~828~1 & !~1031~1);
+  _X009  = EXP( PC2 &  XXX_B0 &  XXX_B1 & !XXX_B2);
+  _X010  = EXP(!XXX_B0 &  XXX_B1 & !XXX_B2 &  ~805~1);
+  _X011  = EXP( _LC079 &  XXX_B0 & !XXX_B1 & !XXX_B2);
+  _X012  = EXP( BUS2 & !XXX_B0 & !XXX_B1 & !XXX_B2);
+
+-- Node name is 'BUS6' = '~1075~1' 
+-- Equation name is 'BUS6', location is LC061, type is output.
+ BUS6    = LCELL( _EQ018 $  VCC);
+  _EQ018 =  _X013 &  _X014 &  _X015 &  _X016 &  _X017 &  _X018;
+  _X013  = EXP(!XXX_B0 &  XXX_B1 &  XXX_B2 &  ~1016~1);
+  _X014  = EXP( BUS6 & !~287~1 & !~542~1 & !~816~1 & !~828~1 & !~1031~1);
+  _X015  = EXP( PC6 &  XXX_B0 &  XXX_B1 & !XXX_B2);
+  _X016  = EXP( _LC007 & !XXX_B0 &  XXX_B1 & !XXX_B2);
+  _X017  = EXP( _LC070 &  XXX_B0 & !XXX_B1 & !XXX_B2);
+  _X018  = EXP( BUS6 & !XXX_B0 & !XXX_B1 & !XXX_B2);
+
+-- Node name is 'BUS7' = '~1074~1' 
+-- Equation name is 'BUS7', location is LC051, type is output.
+ BUS7    = LCELL( _EQ019 $  VCC);
+  _EQ019 =  _X019 &  _X020 &  _X021 &  _X022 &  _X023 &  _X024;
+  _X019  = EXP(!XXX_B0 &  XXX_B1 &  XXX_B2 &  ~1015~1);
+  _X020  = EXP( BUS7 & !~287~1 & !~542~1 & !~816~1 & !~828~1 & !~1031~1);
+  _X021  = EXP( PC7 &  XXX_B0 &  XXX_B1 & !XXX_B2);
+  _X022  = EXP( _LC039 & !XXX_B0 &  XXX_B1 & !XXX_B2);
+  _X023  = EXP( _LC066 &  XXX_B0 & !XXX_B1 & !XXX_B2);
+  _X024  = EXP( BUS7 & !XXX_B0 & !XXX_B1 & !XXX_B2);
+
+-- Node name is 'B0' = ':491' 
+-- Equation name is 'B0', type is output 
+ B0      = TFFE( _EQ020, !T1,  VCC,  VCC,  VCC);
+  _EQ020 =  BUS0 & !B0 & !LDXXX0 &  LDXXX1 & !LDXXX2
+         # !BUS0 &  B0 & !LDXXX0 &  LDXXX1 & !LDXXX2;
+
+-- Node name is 'B1' = ':490' 
+-- Equation name is 'B1', type is output 
+ B1      = TFFE( _EQ021, !T1,  VCC,  VCC,  VCC);
+  _EQ021 =  BUS1 & !B1 & !LDXXX0 &  LDXXX1 & !LDXXX2
+         # !BUS1 &  B1 & !LDXXX0 &  LDXXX1 & !LDXXX2;
+
+-- Node name is 'B2' = ':489' 
+-- Equation name is 'B2', type is output 
+ B2      = TFFE( _EQ022, !T1,  VCC,  VCC,  VCC);
+  _EQ022 =  BUS2 & !B2 & !LDXXX0 &  LDXXX1 & !LDXXX2
+         # !BUS2 &  B2 & !LDXXX0 &  LDXXX1 & !LDXXX2;
+
+-- Node name is 'B3' = ':488' 
+-- Equation name is 'B3', type is output 
+ B3      = TFFE( _EQ023, !T1,  VCC,  VCC,  VCC);
+  _EQ023 =  BUS3 & !B3 & !LDXXX0 &  LDXXX1 & !LDXXX2
+         # !BUS3 &  B3 & !LDXXX0 &  LDXXX1 & !LDXXX2;
+
+-- Node name is 'B5' = ':486' 
+-- Equation name is 'B5', type is output 
+ B5      = TFFE( _EQ024, !T1,  VCC,  VCC,  VCC);
+  _EQ024 =  BUS5 & !B5 & !LDXXX0 &  LDXXX1 & !LDXXX2
+         # !BUS5 &  B5 & !LDXXX0 &  LDXXX1 & !LDXXX2;
+
+-- Node name is 'B6' = ':485' 
+-- Equation name is 'B6', type is output 
+ B6      = TFFE( _EQ025, !T1,  VCC,  VCC,  VCC);
+  _EQ025 =  BUS6 & !B6 & !LDXXX0 &  LDXXX1 & !LDXXX2
+         # !BUS6 &  B6 & !LDXXX0 &  LDXXX1 & !LDXXX2;
+
+-- Node name is 'B7' = ':484' 
+-- Equation name is 'B7', type is output 
+ B7      = TFFE( _EQ026, !T1,  VCC,  VCC,  VCC);
+  _EQ026 =  BUS7 & !B7 & !LDXXX0 &  LDXXX1 & !LDXXX2
+         # !BUS7 &  B7 & !LDXXX0 &  LDXXX1 & !LDXXX2;
+
+-- Node name is 'OUT6' = ':1397' 
+-- Equation name is 'OUT6', type is output 
+ OUT6    = TFFE( _EQ027, !T1,  VCC,  VCC,  VCC);
+  _EQ027 =  BUS6 & !LDXXX0 & !LDXXX1 &  LDXXX2 & !OUT6
+         # !BUS6 & !LDXXX0 & !LDXXX1 &  LDXXX2 &  OUT6;
+
+-- Node name is 'OUT7' = ':1396' 
+-- Equation name is 'OUT7', type is output 
+ OUT7    = TFFE( _EQ028, !T1,  VCC,  VCC,  VCC);
+  _EQ028 =  BUS7 & !LDXXX0 & !LDXXX1 &  LDXXX2 & !OUT7
+         # !BUS7 & !LDXXX0 & !LDXXX1 &  LDXXX2 &  OUT7;
+
+-- Node name is 'R06' = ':597' 
+-- Equation name is 'R06', type is output 
+ R06     = TFFE( _EQ029, !T1,  VCC,  VCC,  VCC);
+  _EQ029 =  BUS6 & !IR2 & !IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 & !R06
+         # !BUS6 & !IR2 & !IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 &  R06;
+
+-- Node name is 'R07' = ':596' 
+-- Equation name is 'R07', type is output 
+ R07     = TFFE( _EQ030, !T1,  VCC,  VCC,  VCC);
+  _EQ030 =  BUS7 & !IR2 & !IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 & !R07
+         # !BUS7 & !IR2 & !IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 &  R07;
+
+-- Node name is 'R16' = ':653' 
+-- Equation name is 'R16', type is output 
+ R16     = TFFE( _EQ031, !T1,  VCC,  VCC,  VCC);
+  _EQ031 =  BUS6 &  IR2 & !IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 & !R16
+         # !BUS6 &  IR2 & !IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 &  R16;
+
+-- Node name is 'R17' = ':652' 
+-- Equation name is 'R17', type is output 
+ R17     = TFFE( _EQ032, !T1,  VCC,  VCC,  VCC);
+  _EQ032 =  BUS7 &  IR2 & !IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 & !R17
+         # !BUS7 &  IR2 & !IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 &  R17;
+
+-- Node name is 'R26' = ':709' 
+-- Equation name is 'R26', type is output 
+ R26     = TFFE( _EQ033, !T1,  VCC,  VCC,  VCC);
+  _EQ033 =  BUS6 & !IR2 &  IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 & !R26
+         # !BUS6 & !IR2 &  IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 &  R26;
+
+-- Node name is 'R27' = ':708' 
+-- Equation name is 'R27', type is output 
+ R27     = TFFE( _EQ034, !T1,  VCC,  VCC,  VCC);
+  _EQ034 =  BUS7 & !IR2 &  IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 & !R27
+         # !BUS7 & !IR2 &  IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 &  R27;
+
+-- Node name is 'R36' = ':765' 
+-- Equation name is 'R36', type is output 
+ R36     = TFFE( _EQ035, !T1,  VCC,  VCC,  VCC);
+  _EQ035 =  BUS6 &  IR2 &  IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 & !R36
+         # !BUS6 &  IR2 &  IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 &  R36;
+
+-- Node name is 'R37' = ':764' 
+-- Equation name is 'R37', type is output 
+ R37     = TFFE( _EQ036, !T1,  VCC,  VCC,  VCC);
+  _EQ036 =  BUS7 &  IR2 &  IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 & !R37
+         # !BUS7 &  IR2 &  IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 &  R37;
+
+-- Node name is '|lpm_add_sub:1412|addcore:adder|gcp2' from file "addcore.tdf" line 160, column 8
+-- Equation name is '_LC089', type is buried 
+_LC089   = LCELL( _EQ037 $  GND);
+  _EQ037 =  A0 &  B0 &  _X025 &  _X026
+         #  A1 &  B1 &  _X026
+         #  A2 &  B2;
+  _X025  = EXP(!A1 & !B1);
+  _X026  = EXP(!A2 & !B2);
+
+-- Node name is '|lpm_add_sub:1412|addcore:adder|g4' from file "addcore.tdf" line 158, column 5
+-- Equation name is '_LC085', type is buried 
+_LC085   = LCELL( _EQ038 $  _EQ039);
+  _EQ038 =  A0 &  B0 &  _X025 &  _X026 &  _X027 &  _X028
+         #  A1 &  B1 &  _X026 &  _X027 &  _X028
+         #  A2 &  B2 &  _X027 &  _X028;
+  _X025  = EXP(!A1 & !B1);
+  _X026  = EXP(!A2 & !B2);
+  _X027  = EXP(!A3 & !B3);
+  _X028  = EXP( A3 &  B3);
+  _EQ039 =  A3 &  B3;
+
+-- Node name is '|lpm_add_sub:1412|addcore:adder|result_node0' from file "addcore.tdf" line 164, column 16
+-- Equation name is '_LC082', type is buried 
+_LC082   = LCELL( B0 $  A0);
+
+-- Node name is '|lpm_add_sub:1412|addcore:adder|result_node1' from file "addcore.tdf" line 164, column 16
+-- Equation name is '_LC090', type is buried 
+_LC090   = LCELL( _EQ040 $  GND);
+  _EQ040 =  A0 &  A1 &  B0 &  B1
+         #  A0 & !A1 &  B0 & !B1
+         # !A0 &  _X025 &  _X029
+         # !B0 &  _X025 &  _X029;
+  _X025  = EXP(!A1 & !B1);
+  _X029  = EXP( A1 &  B1);
+
+-- Node name is '|lpm_add_sub:1412|addcore:adder|result_node2' from file "addcore.tdf" line 164, column 16
+-- Equation name is '_LC088', type is buried 
+_LC088   = LCELL( _EQ041 $  _EQ042);
+  _EQ041 =  A0 &  B0 &  _X025
+         #  A1 &  B1;
+  _X025  = EXP(!A1 & !B1);
+  _EQ042 =  _X026 &  _X030;
+  _X026  = EXP(!A2 & !B2);
+  _X030  = EXP( A2 &  B2);
+
+-- Node name is '|lpm_add_sub:1412|addcore:adder|result_node3' from file "addcore.tdf" line 164, column 16
+-- Equation name is '_LC034', type is buried 
+_LC034   = LCELL( _EQ043 $  _LC089);
+  _EQ043 =  _X027 &  _X028;
+  _X027  = EXP(!A3 & !B3);
+  _X028  = EXP( A3 &  B3);
+
+-- Node name is '|lpm_add_sub:1412|addcore:adder|result_node4' from file "addcore.tdf" line 164, column 16
+-- Equation name is '_LC023', type is buried 
+_LC023   = LCELL( _EQ044 $  _LC085);
+  _EQ044 =  _X031 &  _X032;
+  _X031  = EXP( A4 &  B4);
+  _X032  = EXP(!A4 & !B4);
+
+-- Node name is '|lpm_add_sub:1412|addcore:adder|result_node5' from file "addcore.tdf" line 164, column 16
+-- Equation name is '_LC026', type is buried 
+_LC026   = LCELL( _EQ045 $  _EQ046);
+  _EQ045 =  A4 &  B4
+         #  _LC085 &  _X032;
+  _X032  = EXP(!A4 & !B4);
+  _EQ046 =  _X033 &  _X034;
+  _X033  = EXP( A5 &  B5);
+  _X034  = EXP(!A5 & !B5);
+
+-- Node name is '|lpm_add_sub:1412|addcore:adder|result_node6' from file "addcore.tdf" line 164, column 16
+-- Equation name is '_LC087', type is buried 
+_LC087   = LCELL( _EQ047 $  _EQ048);
+  _EQ047 =  A4 &  B4 &  _X034
+         #  _LC085 &  _X032 &  _X034
+         #  A5 &  B5;
+  _X034  = EXP(!A5 & !B5);
+  _X032  = EXP(!A4 & !B4);
+  _EQ048 =  _X035 &  _X036;
+  _X035  = EXP( A6 &  B6);
+  _X036  = EXP(!A6 & !B6);
+
+-- Node name is '|lpm_add_sub:1412|addcore:adder|result_node7' from file "addcore.tdf" line 164, column 16
+-- Equation name is '_LC092', type is buried 
+_LC092   = LCELL( _EQ049 $  _EQ050);
+  _EQ049 =  A4 &  B4 &  _X034 &  _X036
+         #  _LC085 &  _X032 &  _X034 &  _X036
+         #  A5 &  B5 &  _X036
+         #  A6 &  B6;
+  _X034  = EXP(!A5 & !B5);
+  _X036  = EXP(!A6 & !B6);
+  _X032  = EXP(!A4 & !B4);
+  _EQ050 =  _X037 &  _X038;
+  _X037  = EXP(!A7 & !B7);
+  _X038  = EXP( A7 &  B7);
+
+-- Node name is '~287~1' 
+-- Equation name is '~287~1', location is LC075, type is output.
+ ~287~1  = LCELL( _EQ051 $  GND);
+  _EQ051 =  XXX_B0 & !XXX_B1 & !XXX_B2;
+
+-- Node name is '~526~1' 
+-- Equation name is '~526~1', location is LC066, type is buried.
+-- synthesized logic cell 
+_LC066   = LCELL( _EQ052 $  GND);
+  _EQ052 =  _LC066 &  S0 &  S1
+         #  _LC092 &  S0 & !S1
+         #  _LC066 & !S0 & !S1
+         #  _LC066 &  _LC092 &  S0
+         #  _LC066 &  _LC092 & !S1;
+
+-- Node name is '~527~1' 
+-- Equation name is '~527~1', location is LC070, type is buried.
+-- synthesized logic cell 
+_LC070   = LCELL( _EQ053 $  GND);
+  _EQ053 =  _LC070 &  S0 &  S1
+         #  _LC087 &  S0 & !S1
+         #  _LC070 & !S0 & !S1
+         #  _LC070 &  _LC087 &  S0
+         #  _LC070 &  _LC087 & !S1;
+
+-- Node name is '~528~1' 
+-- Equation name is '~528~1', location is LC019, type is output.
+ ~528~1  = LCELL( _EQ054 $  GND);
+  _EQ054 =  S0 &  S1 &  ~528~1
+         #  _LC026 &  S0 & !S1
+         # !S0 & !S1 &  ~528~1
+         #  _LC026 &  S0 &  ~528~1
+         #  _LC026 & !S1 &  ~528~1;
+
+-- Node name is '~529~1' 
+-- Equation name is '~529~1', location is LC017, type is output.
+ ~529~1  = LCELL( _EQ055 $  GND);
+  _EQ055 =  S0 &  S1 &  ~529~1
+         #  _LC023 &  S0 & !S1
+         # !S0 & !S1 &  ~529~1
+         #  _LC023 &  S0 &  ~529~1
+         #  _LC023 & !S1 &  ~529~1;
+
+-- Node name is '~530~1' 
+-- Equation name is '~530~1', location is LC033, type is output.
+ ~530~1  = LCELL( _EQ056 $  GND);
+  _EQ056 =  S0 &  S1 &  ~530~1
+         #  _LC034 &  S0 & !S1
+         # !S0 & !S1 &  ~530~1
+         #  _LC034 &  S0 &  ~530~1
+         #  _LC034 & !S1 &  ~530~1;
+
+-- Node name is '~531~1' 
+-- Equation name is '~531~1', location is LC079, type is buried.
+-- synthesized logic cell 
+_LC079   = LCELL( _EQ057 $  GND);
+  _EQ057 =  _LC079 &  S0 &  S1
+         #  _LC088 &  S0 & !S1
+         #  _LC079 & !S0 & !S1
+         #  _LC079 &  _LC088 &  S0
+         #  _LC079 &  _LC088 & !S1;
+
+-- Node name is '~532~1' 
+-- Equation name is '~532~1', location is LC074, type is buried.
+-- synthesized logic cell 
+_LC074   = LCELL( _EQ058 $  GND);
+  _EQ058 =  _LC074 &  S0 &  S1
+         #  _LC090 &  S0 & !S1
+         #  _LC074 & !S0 & !S1
+         #  _LC074 &  _LC090 &  S0
+         #  _LC074 &  _LC090 & !S1;
+
+-- Node name is '~533~1~2' 
+-- Equation name is '~533~1~2', location is LC095, type is buried.
+-- synthesized logic cell 
+_LC095   = LCELL( _EQ059 $  GND);
+  _EQ059 = !A0 & !A1 & !A2 & !A3 & !A4 & !A5 & !A6 & !A7 &  S1 & !~533~1
+         # !A0 & !A1 & !A2 & !A3 & !A4 & !A5 & !A6 & !A7 & !S0 & !~533~1
+         # !B0 & !B1 & !B2 & !B3 & !B4 & !B5 & !B6 & !B7 &  S1 & !~533~1
+         # !B0 & !B1 & !B2 & !B3 & !B4 & !B5 & !B6 & !B7 & !S0 & !~533~1
+         # !_LC082 &  S0 & !~533~1;
+
+-- Node name is '~533~1~3' 
+-- Equation name is '~533~1~3', location is LC081, type is buried.
+-- synthesized logic cell 
+_LC081   = LCELL( _EQ060 $  GND);
+  _EQ060 = !_LC082 & !S1 & !~533~1
+         # !S0 & !S1 & !~533~1
+         #  _LC095;
+
+-- Node name is '~533~1' 
+-- Equation name is '~533~1', location is LC084, type is output.
+ ~533~1  = LCELL( _EQ061 $  VCC);
+  _EQ061 = !A0 & !A1 & !A2 & !A3 & !A4 & !A5 & !A6 & !A7 & !S0 &  S1
+         # !B0 & !B1 & !B2 & !B3 & !B4 & !B5 & !B6 & !B7 & !S0 &  S1
+         #  S0 &  S1 & !~533~1
+         # !_LC082 &  S0 & !S1
+         #  _LC081;
+
+-- Node name is '~542~1' 
+-- Equation name is '~542~1', location is LC073, type is output.
+ ~542~1  = LCELL( _EQ062 $  GND);
+  _EQ062 = !XXX_B0 &  XXX_B1 & !XXX_B2;
+
+-- Node name is '~800~1' 
+-- Equation name is '~800~1', location is LC039, type is buried.
+-- synthesized logic cell 
+_LC039   = LCELL( _EQ063 $  GND);
+  _EQ063 =  IR0 &  IR1 &  R37
+         # !IR0 &  IR1 &  R27
+         #  IR0 & !IR1 &  R17
+         # !IR0 & !IR1 &  R07;
+
+-- Node name is '~801~1' 
+-- Equation name is '~801~1', location is LC007, type is buried.
+-- synthesized logic cell 
+_LC007   = LCELL( _EQ064 $  GND);
+  _EQ064 =  IR0 &  IR1 &  R36
+         # !IR0 &  IR1 &  R26
+         #  IR0 & !IR1 &  R16
+         # !IR0 & !IR1 &  R06;
+
+-- Node name is '~816~1' 
+-- Equation name is '~816~1', location is LC067, type is output.
+ ~816~1  = LCELL( _EQ065 $  GND);
+  _EQ065 =  XXX_B0 &  XXX_B1 & !XXX_B2;
+
+-- Node name is '~828~1' 
+-- Equation name is '~828~1', location is LC080, type is output.
+ ~828~1  = LCELL( _EQ066 $  GND);
+  _EQ066 = !XXX_B0 &  XXX_B1 &  XXX_B2;
+
+-- Node name is '~1031~1' 
+-- Equation name is '~1031~1', location is LC068, type is output.
+ ~1031~1 = LCELL( _EQ067 $  GND);
+  _EQ067 =  XXX_B0 &  XXX_B1 &  XXX_B2;
+
+
+
+--     Shareable expanders that are duplicated in multiple LABs:
+--    _X027 occurs in LABs C, F
+--    _X028 occurs in LABs C, F
+--    _X032 occurs in LABs B, F
+--    _X034 occurs in LABs B, F
+
+
+
+
+Device-Specific Information:                  d:\maxplus\a_project\cpu\cpu.rpt
+cpu1
+
+***** Logic for device 'cpu1' compiled without errors.
+
+
+
+
+Device: EPM7096LC84-7
+
+Device Options:
+    Turbo Bit                                    = ON
+    Security Bit                                 = OFF
+    MultiVolt I/O                              = OFF
+
+
+
+Device-Specific Information:                  d:\maxplus\a_project\cpu\cpu.rpt
+cpu1
+
+** ERROR SUMMARY **
+
+Info: Chip 'cpu1' in device 'EPM7096LC84-7' has less than 20% of pins available for future logic changes -- if your project is likely to change, Altera recommends using a larger device
+                                                                              
+                                                                              
+               ~                                                              
+               1  ~  ~  ~           ~  V     ~              ~                 
+               0  5  8  8           2  C     8              8     V           
+               3  4  2  1     N     8  C     0  B           0  N  C  M        
+               1  2  8  6  G  .  I  7  I  G  3  U  c  G  P  4  .  C  A  P  P  
+               ~  ~  ~  ~  N  C  R  ~  N  N  ~  S  l  N  C  ~  C  I  R  C  C  
+               1  1  1  1  D  .  4  1  T  D  1  7  k  D  1  1  .  O  1  2  0  
+             -----------------------------------------------------------------_ 
+           /  11 10  9  8  7  6  5  4  3  2  1 84 83 82 81 80 79 78 77 76 75   | 
+     BUS6 | 12                                                              74 | MAR2 
+    VCCIO | 13                                                              73 | PC4 
+interrupt | 14                                                              72 | GND 
+     BUS0 | 15                                                              71 | PC6 
+     BUS4 | 16                                                              70 | ~1021~1 
+  ~1016~1 | 17                                                              69 | ~1020~1 
+  ~1015~1 | 18                                                              68 | IR5 
+      GND | 19                                                              67 | uMA1 
+      PC7 | 20                                                              66 | VCCIO 
+      IR6 | 21                                                              65 | MAR5 
+      IR7 | 22                        EPM7096LC84-7                         64 | MAR4 
+   LDXXX1 | 23                                                              63 | ~807~1 
+     uMA0 | 24                                                              62 | ~802~1 
+     MAR6 | 25                                                              61 | ~530~1 
+    VCCIO | 26                                                              60 | MAR0 
+     MAR7 | 27                                                              59 | GND 
+   LDXXX0 | 28                                                              58 | uMA3 
+   XXX_B2 | 29                                                              57 | LDXXX2 
+   XXX_B0 | 30                                                              56 | ~529~1 
+     uMA5 | 31                                                              55 | BUS3 
+      GND | 32                                                              54 | BUS2 
+          |_  33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53  _| 
+            ------------------------------------------------------------------ 
+               u  ~  ~  S  S  V  N  X  u  G  V  P  M  N  G  P  T  r  B  B  V  
+               M  5  5  1  0  C  .  X  M  N  C  C  A  .  N  C  1  e  U  U  C  
+               A  2  3        C  C  X  A  D  C  3  R  C  D  5     s  S  S  C  
+               4  8  3        I  .  _  2     I     3  .           e  1  5  I  
+                  ~  ~        O     B        N                    t        O  
+                  1  1              1        T                                
+                                                                              
+                                                                              
+                                                                              
+
+
+N.C. = No Connect. This pin has no internal connection to the device.
+VCCINT = Dedicated power pin, which MUST be connected to VCC (5.0 volts).
+VCCIO = Dedicated power pin, which MUST be connected to VCC (5.0 volts).
+GND = Dedicated ground pin or unused dedicated input, which MUST be connected to GND.
+RESERVED = Unused I/O pin, which MUST be left unconnected.
+
+
+
+Device-Specific Information:                  d:\maxplus\a_project\cpu\cpu.rpt
+cpu1
+
+** RESOURCE USAGE **
+
+                                                Shareable     External
+Logic Array Block     Logic Cells   I/O Pins    Expanders   Interconnect
+
+A:     LC1 - LC16     2/16( 12%)  10/10(100%)  13/16( 81%)  19/36( 52%) 
+B:    LC17 - LC32    10/16( 62%)  10/10(100%)  16/16(100%)  26/36( 72%) 
+C:    LC33 - LC48    11/16( 68%)  10/10(100%)  16/16(100%)  27/36( 75%) 
+D:    LC49 - LC64    13/16( 81%)  10/10(100%)  14/16( 87%)  30/36( 83%) 
+E:    LC65 - LC80     9/16( 56%)  10/10(100%)  15/16( 93%)  29/36( 80%) 
+F:    LC81 - LC96    16/16(100%)  10/10(100%)  12/16( 75%)  31/36( 86%) 
+
+
+Total dedicated input pins used:                 3/4      ( 75%)
+Total I/O pins used:                            60/60     (100%)
+Total logic cells used:                         61/96     ( 63%)
+Total shareable expanders used:                 78/96     ( 81%)
+Total Turbo logic cells used:                   61/96     ( 63%)
+Total shareable expanders not available (n/a):   8/96     (  8%)
+Average fan-in:                                  7.26
+Total fan-in:                                   443
+
+Total input pins required:                      22
+Total output pins required:                     41
+Total bidirectional pins required:               0
+Total logic cells required:                     61
+Total flipflops required:                       41
+Total product terms required:                  252
+Total logic cells lending parallel expanders:    0
+Total shareable expanders in database:          73
+
+Synthesized logic cells:                        19/  96   ( 19%)
+
+
+
+Device-Specific Information:                  d:\maxplus\a_project\cpu\cpu.rpt
+cpu1
+
+** INPUTS **
+
+                                         Shareable
+                                         Expanders     Fan-In    Fan-Out
+ Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
+  51   (57)  (D)      INPUT    s          0      0   0    0    0    3    0  BUS1
+  54   (61)  (D)      INPUT    s          0      0   0    0    0    3    0  BUS2
+  12    (6)  (A)      INPUT    s          0      0   0    0    0    4    0  BUS6
+  84      -   -       INPUT    s          0      0   0    0    0    4    0  BUS7
+  83      -   -       INPUT  G            0      0   0    0    0    0    0  clk
+  14    (4)  (A)      INPUT               0      0   0    0    0    5    0  interrupt
+   5   (14)  (A)      INPUT    s          0      0   0    0    0    2    0  IR4
+  50   (56)  (D)      INPUT               0      0   0    0    0   14    8  reset
+  49   (54)  (D)      INPUT    s          0      0   0    0    0   33    1  T1
+   4   (16)  (A)      INPUT    s          0      0   0    0    0    4    0  ~287~1
+  34   (41)  (C)      INPUT    s          0      0   0    0    0    1    0  ~528~1
+  56   (64)  (D)      INPUT    s          0      0   0    0    0    1    0  ~529~1
+  61   (70)  (E)      INPUT    s          0      0   0    0    0    1    0  ~530~1
+  35   (40)  (C)      INPUT    s          0      0   0    0    0    1    0  ~533~1
+  10    (9)  (A)      INPUT    s          0      0   0    0    0    4    0  ~542~1
+  62   (72)  (E)      INPUT    s          0      0   0    0    0    1    0  ~802~1
+   1      -   -       INPUT    s          0      0   0    0    0    1    0  ~803~1
+  80   (94)  (F)      INPUT    s          0      0   0    0    0    1    0  ~804~1
+  63   (73)  (E)      INPUT    s          0      0   0    0    0    1    0  ~807~1
+   8   (12)  (A)      INPUT    s          0      0   0    0    0    4    0  ~816~1
+   9   (11)  (A)      INPUT    s          0      0   0    0    0    4    0  ~828~1
+  11    (8)  (A)      INPUT    s          0      0   0    0    0    4    0  ~1031~1
+
+
+Code:
+
+s = Synthesized pin or logic cell
+t = Turbo logic cell
++ = Synchronous flipflop
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+G = Global Source. Fan-out destinations counted here do not include destinations
+that are driven using global routing resources. Refer to the Auto Global Signals,
+Clock Signals, Clear Signals, Synchronous Load Signals, and Synchronous Clear Signals
+Sections of this Report File for information on which signals' fan-outs are used as
+Clock, Clear, Preset, Output Enable, and synchronous Load signals.
+
+
+Device-Specific Information:                  d:\maxplus\a_project\cpu\cpu.rpt
+cpu1
+
+** OUTPUTS **
+
+                                         Shareable
+                                         Expanders     Fan-In    Fan-Out
+ Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
+  15      3    A     OUTPUT    s t        7      0   0    7    7    3    1  BUS0
+  55     62    D     OUTPUT    s t        7      0   0    7    7    3    1  BUS3
+  16      1    A     OUTPUT    s t        6      0   0    7    6    3    1  BUS4
+  52     59    D     OUTPUT    s t        6      0   0    7    6    4    1  BUS5
+  68     80    E         FF      t        0      0   0    1    5    2    0  IR5
+  21     27    B         FF      t        0      0   0    2    4    3    0  IR6
+  22     25    B         FF      t        0      0   0    2    4    3    0  IR7
+  28     17    B         FF      t        1      1   0    2    7   20    1  LDXXX0 (:1277)
+  23     24    B         FF      t        1      0   1    2    7   20    1  LDXXX1 (:1276)
+  57     65    E         FF      t        1      0   1    2    7   20    1  LDXXX2 (:1275)
+  60     69    E         FF      t        0      0   0    1    5    5    4  MAR0
+  77     92    F         FF      t        0      0   0    2    4    5    4  MAR1
+  74     88    F         FF      t        0      0   0    2    4    5    4  MAR2
+  45     51    D         FF      t        0      0   0    1    5    5    4  MAR3
+  64     75    E         FF      t        0      0   0    1    5    5    4  MAR4
+  65     76    E         FF      t        0      0   0    1    5    5    4  MAR5
+  25     21    B         FF      t        0      0   0    2    4    5    4  MAR6
+  27     19    B         FF      t        0      0   0    2    4    5    4  MAR7
+  75     89    F         FF      t        1      1   0    1    6    2    7  PC0
+  81     96    F         FF      t        1      1   0    2    6    1    7  PC1
+  76     91    F         FF      t        1      1   0    2    6    1    6  PC2
+  44     49    D         FF      t        1      1   0    1    7    2    5  PC3
+  73     86    F         FF      t        1      1   0    1    7    2    4  PC4
+  48     53    D         FF      t        1      1   0    1    7    2    3  PC5
+  71     84    F         FF      t        1      1   0    2    6    1    2  PC6
+  20     28    B         FF      t        0      0   0    2    4    0    2  PC7
+  37     37    C         FF      t        0      0   0    2    4    1    0  S0 (:327)
+  36     38    C         FF      t        0      0   0    2    4    1    0  S1 (:326)
+  24     22    B         FF      t        3      0   1    4    8   11    1  uMA0
+  67     77    E         FF      t        3      0   1    4    9   11    1  uMA1
+  41     33    C         FF      t        1      0   1    3    6   11    1  uMA2
+  58     67    E         FF      t        0      0   0    2    1   14    1  uMA3
+  33     43    C         FF      t        0      0   0    3    6   13    1  uMA4
+  31     45    C         FF      t        0      0   0    3    6   13    1  uMA5
+  30     46    C         FF      t        1      1   0    2    7    5    0  XXX_B0 (:274)
+  40     35    C         FF      t        1      0   1    2    7    5    0  XXX_B1 (:273)
+  29     48    C         FF      t        2      1   1    2    7    5    0  XXX_B2 (:272)
+  18     29    B     OUTPUT    s t        6      1   0    1    8    0    0  ~1015~1
+  17     32    B     OUTPUT    s t        6      1   0    1    8    0    0  ~1016~1
+  69     81    F     OUTPUT    s t        6      1   0    1    9    0    0  ~1020~1
+  70     83    F     OUTPUT    s t        6      1   0    1    8    0    0  ~1021~1
+
+
+Code:
+
+s = Synthesized pin or logic cell
+t = Turbo logic cell
++ = Synchronous flipflop
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+
+
+Device-Specific Information:                  d:\maxplus\a_project\cpu\cpu.rpt
+cpu1
+
+** BURIED LOGIC **
+
+                                         Shareable
+                                         Expanders     Fan-In    Fan-Out
+ Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
+   -     82    F       SOFT      t        0      0   0    0    8    0    1  |lpm_add_sub:1413|addcore:adder|result_node7
+   -     95    F       SOFT    s t        0      0   0    0    2    1    0  |lpm_add_sub:1413|addcore:adder|~242~1
+   -     93    F       SOFT    s t        0      0   0    0    3    1    0  |lpm_add_sub:1413|addcore:adder|~245~1
+   -     90    F       SOFT    s t        0      0   0    0    4    1    0  |lpm_add_sub:1413|addcore:adder|~246~1
+   -     85    F       SOFT    s t        0      0   0    0    5    1    0  |lpm_add_sub:1413|addcore:adder|~249~1
+ (80)    94    F       SOFT    s t        0      0   0    0    6    1    0  |lpm_add_sub:1413|addcore:adder|~252~1
+   -     87    F       SOFT    s t        0      0   0    0    7    1    0  |lpm_add_sub:1413|addcore:adder|~255~1
+ (50)    56    D       DFFE   +  t        0      0   0    1    0    0    1  MEM15 (:913)
+   -     60    D       DFFE   +  t        0      0   0    1    0    1    0  MEM12 (:916)
+ (51)    57    D       DFFE   +  t        0      0   0    1    0    0    1  MEM24 (:948)
+ (54)    61    D       DFFE   +  t        0      0   0    1    0    0    1  MEM34 (:982)
+ (49)    54    D       DFFE   +  t        0      0   0    1    0    0    1  MEM30 (:986)
+   -     78    E       SOFT    s t        6      1   0    0   10    1    0  ~1017~1
+   -     34    C       SOFT    s t        6      1   0    0   11    1    0  ~1018~1
+ (35)    40    C       SOFT    s t        6      1   0    0    9    1    0  ~1019~1
+ (63)    73    E       SOFT    s t        6      1   0    0   10    1    0  ~1022~1
+   -     55    D       DFFE   +  t        0      0   0    1    0    1    0  IN3 (:1040)
+   -     52    D       DFFE   +  t        0      0   0    1    0    1    0  IN0 (:1043)
+ (34)    41    C       TFFE      t        1      0   1    2    7    7    2  INC_PC (:1327)
+   -     58    D       SOFT    s t        1      1   0    0    6    1    0  ~1353~1
+
+
+Code:
+
+s = Synthesized pin or logic cell
+t = Turbo logic cell
++ = Synchronous flipflop
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+
+
+Device-Specific Information:                  d:\maxplus\a_project\cpu\cpu.rpt
+cpu1
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'A':
+
+             Logic cells placed in LAB 'A'
+        +--- LC3 BUS0
+        | +- LC1 BUS4
+        | | 
+        | |   Other LABs fed by signals
+        | |   that feed LAB 'A'
+LC      | | | A B C D E F |     Logic cells that feed LAB 'A':
+LC3  -> * - | * - - - * * | <-- BUS0
+LC1  -> - * | * - * - * * | <-- BUS4
+
+Pin
+84   -> - - | - * - - - - | <-- BUS7
+83   -> - - | - - - - - - | <-- clk
+4    -> * * | * - - * - - | <-- ~287~1
+56   -> - * | * - - - - - | <-- ~529~1
+35   -> * - | * - - - - - | <-- ~533~1
+10   -> * * | * - - * - - | <-- ~542~1
+1    -> - * | * - - - - - | <-- ~803~1
+63   -> * - | * - - - - - | <-- ~807~1
+8    -> * * | * - - * - - | <-- ~816~1
+9    -> * * | * - - * - - | <-- ~828~1
+11   -> * * | * - - * - - | <-- ~1031~1
+LC89 -> * - | * - - - - * | <-- PC0
+LC86 -> - * | * - - - - * | <-- PC4
+LC46 -> * * | * - * * - - | <-- XXX_B0
+LC35 -> * * | * - * * - - | <-- XXX_B1
+LC48 -> * * | * - * * - - | <-- XXX_B2
+LC34 -> - * | * - - - - - | <-- ~1018~1
+LC73 -> * - | * - - - - - | <-- ~1022~1
+LC52 -> * - | * - - - - - | <-- IN0
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:                  d:\maxplus\a_project\cpu\cpu.rpt
+cpu1
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'B':
+
+                             Logic cells placed in LAB 'B'
+        +------------------- LC27 IR6
+        | +----------------- LC25 IR7
+        | | +--------------- LC17 LDXXX0
+        | | | +------------- LC24 LDXXX1
+        | | | | +----------- LC21 MAR6
+        | | | | | +--------- LC19 MAR7
+        | | | | | | +------- LC28 PC7
+        | | | | | | | +----- LC22 uMA0
+        | | | | | | | | +--- LC29 ~1015~1
+        | | | | | | | | | +- LC32 ~1016~1
+        | | | | | | | | | | 
+        | | | | | | | | | |   Other LABs fed by signals
+        | | | | | | | | | |   that feed LAB 'B'
+LC      | | | | | | | | | | | A B C D E F |     Logic cells that feed LAB 'B':
+LC27 -> * - - - - - - * - - | - * - - * - | <-- IR6
+LC25 -> - * - - - - - * - - | - * - - * - | <-- IR7
+LC17 -> * * * - * * * - - - | - * - * * * | <-- LDXXX0
+LC24 -> * * - * * * * - - - | - * - * * * | <-- LDXXX1
+LC21 -> - - - - * - - - * * | - * * - * * | <-- MAR6
+LC19 -> - - - - - * - - * * | - * * - * * | <-- MAR7
+LC22 -> - - * * - - - * - - | - * * - * - | <-- uMA0
+
+Pin
+12   -> * - - - * - - - - * | - * - - - * | <-- BUS6
+84   -> - * - - - * * - * - | - * - - - - | <-- BUS7
+83   -> - - - - - - - - - - | - - - - - - | <-- clk
+14   -> - - - - - - - * - - | - * * - * - | <-- interrupt
+5    -> - - - - - - - * - - | - * - - * - | <-- IR4
+50   -> - - * * - - - * - - | - * * * * - | <-- reset
+49   -> * * * * * * * * - - | - * * * * * | <-- T1
+1    -> - - - - - - - - - - | * - - - - - | <-- ~803~1
+LC65 -> * * - - * * * - - - | - * - * * * | <-- LDXXX2
+LC69 -> - - - - - - - - * * | - * * - * * | <-- MAR0
+LC92 -> - - - - - - - - * * | - * * - * * | <-- MAR1
+LC88 -> - - - - - - - - * * | - * * - * * | <-- MAR2
+LC51 -> - - - - - - - - * * | - * * * * * | <-- MAR3
+LC75 -> - - - - - - - - * * | - * * - * * | <-- MAR4
+LC76 -> - - - - - - - - * * | - * * - * * | <-- MAR5
+LC77 -> - - * * - - - * - - | - * * - * - | <-- uMA1
+LC33 -> - - * * - - - * - - | - * * - * - | <-- uMA2
+LC67 -> - - * * - - - * - - | - * * - * - | <-- uMA3
+LC43 -> - - * * - - - * - - | - * * - * - | <-- uMA4
+LC45 -> - - * * - - - * - - | - * * - * - | <-- uMA5
+LC58 -> - - - - - - * - - - | - * - - - - | <-- ~1353~1
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:                  d:\maxplus\a_project\cpu\cpu.rpt
+cpu1
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'C':
+
+                               Logic cells placed in LAB 'C'
+        +--------------------- LC37 S0
+        | +------------------- LC38 S1
+        | | +----------------- LC33 uMA2
+        | | | +--------------- LC43 uMA4
+        | | | | +------------- LC45 uMA5
+        | | | | | +----------- LC46 XXX_B0
+        | | | | | | +--------- LC35 XXX_B1
+        | | | | | | | +------- LC48 XXX_B2
+        | | | | | | | | +----- LC34 ~1018~1
+        | | | | | | | | | +--- LC40 ~1019~1
+        | | | | | | | | | | +- LC41 INC_PC
+        | | | | | | | | | | | 
+        | | | | | | | | | | |   Other LABs fed by signals
+        | | | | | | | | | | |   that feed LAB 'C'
+LC      | | | | | | | | | | | | A B C D E F |     Logic cells that feed LAB 'C':
+LC37 -> * - - - - - - - - - - | - - * - - - | <-- S0
+LC38 -> - * - - - - - - - - - | - - * - - - | <-- S1
+LC33 -> - - * * * * * * - - * | - * * - * - | <-- uMA2
+LC43 -> * * * * * * * * - - * | - * * - * - | <-- uMA4
+LC45 -> * * * * * * * * - - * | - * * - * - | <-- uMA5
+LC46 -> - - - - - * - - - - - | * - * * - - | <-- XXX_B0
+LC35 -> - - - - - - * - - - - | * - * * - - | <-- XXX_B1
+LC48 -> - - - - - - - * - - - | * - * * - - | <-- XXX_B2
+LC41 -> - - - - - - - - - - * | - - * * - * | <-- INC_PC
+
+Pin
+84   -> - - - - - - - - - - - | - * - - - - | <-- BUS7
+83   -> - - - - - - - - - - - | - - - - - - | <-- clk
+14   -> - - * * * - - - - - - | - * * - * - | <-- interrupt
+50   -> * * * * * * * * - - * | - * * * * - | <-- reset
+49   -> * * * * * * * * - - * | - * * * * * | <-- T1
+1    -> - - - - - - - - - - - | * - - - - - | <-- ~803~1
+LC62 -> - - - - - - - - - * - | - - * * - - | <-- BUS3
+LC1  -> - - - - - - - - * - - | * - * - * * | <-- BUS4
+LC69 -> - - - - - - - - * * - | - * * - * * | <-- MAR0
+LC92 -> - - - - - - - - * * - | - * * - * * | <-- MAR1
+LC88 -> - - - - - - - - * * - | - * * - * * | <-- MAR2
+LC51 -> - - - - - - - - * * - | - * * * * * | <-- MAR3
+LC75 -> - - - - - - - - * * - | - * * - * * | <-- MAR4
+LC76 -> - - - - - - - - * * - | - * * - * * | <-- MAR5
+LC21 -> - - - - - - - - * * - | - * * - * * | <-- MAR6
+LC19 -> - - - - - - - - * * - | - * * - * * | <-- MAR7
+LC22 -> - - * * * * * * - - * | - * * - * - | <-- uMA0
+LC77 -> - - * * * * * * - - * | - * * - * - | <-- uMA1
+LC67 -> * * * * * * * * - - * | - * * - * - | <-- uMA3
+LC57 -> - - - - - - - - * - - | - - * - - - | <-- MEM24
+LC61 -> - - - - - - - - * - - | - - * - - - | <-- MEM34
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:                  d:\maxplus\a_project\cpu\cpu.rpt
+cpu1
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'D':
+
+                                   Logic cells placed in LAB 'D'
+        +------------------------- LC62 BUS3
+        | +----------------------- LC59 BUS5
+        | | +--------------------- LC51 MAR3
+        | | | +------------------- LC49 PC3
+        | | | | +----------------- LC53 PC5
+        | | | | | +--------------- LC56 MEM15
+        | | | | | | +------------- LC60 MEM12
+        | | | | | | | +----------- LC57 MEM24
+        | | | | | | | | +--------- LC61 MEM34
+        | | | | | | | | | +------- LC54 MEM30
+        | | | | | | | | | | +----- LC55 IN3
+        | | | | | | | | | | | +--- LC52 IN0
+        | | | | | | | | | | | | +- LC58 ~1353~1
+        | | | | | | | | | | | | | 
+        | | | | | | | | | | | | |   Other LABs fed by signals
+        | | | | | | | | | | | | |   that feed LAB 'D'
+LC      | | | | | | | | | | | | | | A B C D E F |     Logic cells that feed LAB 'D':
+LC62 -> * - * * - - - - - - - - - | - - * * - - | <-- BUS3
+LC59 -> - * - - * - - - - - - - - | - - - * * - | <-- BUS5
+LC51 -> - - * - - - - - - - - - - | - * * * * * | <-- MAR3
+LC49 -> * - - * - - - - - - - - - | - - - * - * | <-- PC3
+LC53 -> - * - - * - - - - - - - - | - - - * - * | <-- PC5
+LC55 -> * - - - - - - - - - - - - | - - - * - - | <-- IN3
+
+Pin
+84   -> - - - - - - - - - - - - - | - * - - - - | <-- BUS7
+83   -> - - - - - - - - - - - - - | - - - - - - | <-- clk
+50   -> - - - - - * * * * * * * - | - * * * * - | <-- reset
+49   -> - - * * * - - - - - - - - | - * * * * * | <-- T1
+4    -> * * - - - - - - - - - - - | * - - * - - | <-- ~287~1
+34   -> - * - - - - - - - - - - - | - - - * - - | <-- ~528~1
+61   -> * - - - - - - - - - - - - | - - - * - - | <-- ~530~1
+10   -> * * - - - - - - - - - - - | * - - * - - | <-- ~542~1
+62   -> - * - - - - - - - - - - - | - - - * - - | <-- ~802~1
+1    -> - - - - - - - - - - - - - | * - - - - - | <-- ~803~1
+80   -> * - - - - - - - - - - - - | - - - * - - | <-- ~804~1
+8    -> * * - - - - - - - - - - - | * - - * - - | <-- ~816~1
+9    -> * * - - - - - - - - - - - | * - - * - - | <-- ~828~1
+11   -> * * - - - - - - - - - - - | * - - * - - | <-- ~1031~1
+LC17 -> - - * * * - - - - - - - * | - * - * * * | <-- LDXXX0
+LC24 -> - - * * * - - - - - - - * | - * - * * * | <-- LDXXX1
+LC65 -> - - * * * - - - - - - - * | - * - * * * | <-- LDXXX2
+LC82 -> - - - - - - - - - - - - * | - - - * - - | <-- |lpm_add_sub:1413|addcore:adder|result_node7
+LC90 -> - - - * - - - - - - - - - | - - - * - - | <-- |lpm_add_sub:1413|addcore:adder|~246~1
+LC94 -> - - - - * - - - - - - - - | - - - * - - | <-- |lpm_add_sub:1413|addcore:adder|~252~1
+LC28 -> - - - - - - - - - - - - * | - - - * - * | <-- PC7
+LC46 -> * * - - - - - - - - - - - | * - * * - - | <-- XXX_B0
+LC35 -> * * - - - - - - - - - - - | * - * * - - | <-- XXX_B1
+LC48 -> * * - - - - - - - - - - - | * - * * - - | <-- XXX_B2
+LC78 -> - * - - - - - - - - - - - | - - - * - - | <-- ~1017~1
+LC40 -> * - - - - - - - - - - - - | - - - * - - | <-- ~1019~1
+LC41 -> - - - * * - - - - - - - * | - - * * - * | <-- INC_PC
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:                  d:\maxplus\a_project\cpu\cpu.rpt
+cpu1
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'E':
+
+                           Logic cells placed in LAB 'E'
+        +----------------- LC80 IR5
+        | +--------------- LC65 LDXXX2
+        | | +------------- LC69 MAR0
+        | | | +----------- LC75 MAR4
+        | | | | +--------- LC76 MAR5
+        | | | | | +------- LC77 uMA1
+        | | | | | | +----- LC67 uMA3
+        | | | | | | | +--- LC78 ~1017~1
+        | | | | | | | | +- LC73 ~1022~1
+        | | | | | | | | | 
+        | | | | | | | | |   Other LABs fed by signals
+        | | | | | | | | |   that feed LAB 'E'
+LC      | | | | | | | | | | A B C D E F |     Logic cells that feed LAB 'E':
+LC80 -> * - - - - * - - - | - - - - * - | <-- IR5
+LC65 -> * * * * * - - - - | - * - * * * | <-- LDXXX2
+LC69 -> - - * - - - - * * | - * * - * * | <-- MAR0
+LC75 -> - - - * - - - * * | - * * - * * | <-- MAR4
+LC76 -> - - - - * - - * * | - * * - * * | <-- MAR5
+LC77 -> - * - - - * - - - | - * * - * - | <-- uMA1
+LC67 -> - * - - - * * - - | - * * - * - | <-- uMA3
+
+Pin
+84   -> - - - - - - - - - | - * - - - - | <-- BUS7
+83   -> - - - - - - - - - | - - - - - - | <-- clk
+14   -> - - - - - * - - - | - * * - * - | <-- interrupt
+5    -> - - - - - * - - - | - * - - * - | <-- IR4
+50   -> - * - - - * * - - | - * * * * - | <-- reset
+49   -> * * * * * * * - - | - * * * * * | <-- T1
+1    -> - - - - - - - - - | * - - - - - | <-- ~803~1
+LC3  -> - - * - - - - - * | * - - - * * | <-- BUS0
+LC1  -> - - - * - - - - - | * - * - * * | <-- BUS4
+LC59 -> * - - - * - - * - | - - - * * - | <-- BUS5
+LC27 -> - - - - - * - - - | - * - - * - | <-- IR6
+LC25 -> - - - - - * - - - | - * - - * - | <-- IR7
+LC17 -> * - * * * - - - - | - * - * * * | <-- LDXXX0
+LC24 -> * - * * * - - - - | - * - * * * | <-- LDXXX1
+LC92 -> - - - - - - - * * | - * * - * * | <-- MAR1
+LC88 -> - - - - - - - * * | - * * - * * | <-- MAR2
+LC51 -> - - - - - - - * * | - * * * * * | <-- MAR3
+LC21 -> - - - - - - - * * | - * * - * * | <-- MAR6
+LC19 -> - - - - - - - * * | - * * - * * | <-- MAR7
+LC22 -> - * - - - * - - - | - * * - * - | <-- uMA0
+LC33 -> - * - - - * - - - | - * * - * - | <-- uMA2
+LC43 -> - * - - - * - - - | - * * - * - | <-- uMA4
+LC45 -> - * - - - * - - - | - * * - * - | <-- uMA5
+LC56 -> - - - - - - - * - | - - - - * - | <-- MEM15
+LC54 -> - - - - - - - - * | - - - - * - | <-- MEM30
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:                  d:\maxplus\a_project\cpu\cpu.rpt
+cpu1
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'F':
+
+                                         Logic cells placed in LAB 'F'
+        +------------------------------- LC82 |lpm_add_sub:1413|addcore:adder|result_node7
+        | +----------------------------- LC95 |lpm_add_sub:1413|addcore:adder|~242~1
+        | | +--------------------------- LC93 |lpm_add_sub:1413|addcore:adder|~245~1
+        | | | +------------------------- LC90 |lpm_add_sub:1413|addcore:adder|~246~1
+        | | | | +----------------------- LC85 |lpm_add_sub:1413|addcore:adder|~249~1
+        | | | | | +--------------------- LC94 |lpm_add_sub:1413|addcore:adder|~252~1
+        | | | | | | +------------------- LC87 |lpm_add_sub:1413|addcore:adder|~255~1
+        | | | | | | | +----------------- LC92 MAR1
+        | | | | | | | | +--------------- LC88 MAR2
+        | | | | | | | | | +------------- LC89 PC0
+        | | | | | | | | | | +----------- LC96 PC1
+        | | | | | | | | | | | +--------- LC91 PC2
+        | | | | | | | | | | | | +------- LC86 PC4
+        | | | | | | | | | | | | | +----- LC84 PC6
+        | | | | | | | | | | | | | | +--- LC81 ~1020~1
+        | | | | | | | | | | | | | | | +- LC83 ~1021~1
+        | | | | | | | | | | | | | | | | 
+        | | | | | | | | | | | | | | | |   Other LABs fed by signals
+        | | | | | | | | | | | | | | | |   that feed LAB 'F'
+LC      | | | | | | | | | | | | | | | | | A B C D E F |     Logic cells that feed LAB 'F':
+LC95 -> - - - - - - - - - - * - - - - - | - - - - - * | <-- |lpm_add_sub:1413|addcore:adder|~242~1
+LC93 -> - - - - - - - - - - - * - - - - | - - - - - * | <-- |lpm_add_sub:1413|addcore:adder|~245~1
+LC85 -> - - - - - - - - - - - - * - - - | - - - - - * | <-- |lpm_add_sub:1413|addcore:adder|~249~1
+LC87 -> - - - - - - - - - - - - - * - - | - - - - - * | <-- |lpm_add_sub:1413|addcore:adder|~255~1
+LC92 -> - - - - - - - * - - - - - - * * | - * * - * * | <-- MAR1
+LC88 -> - - - - - - - - * - - - - - * * | - * * - * * | <-- MAR2
+LC89 -> * * * * * * * - - * - - - - - - | * - - - - * | <-- PC0
+LC96 -> * * * * * * * - - - * - - - - - | - - - - - * | <-- PC1
+LC91 -> * - * * * * * - - - - * - - - - | - - - - - * | <-- PC2
+LC86 -> * - - - * * * - - - - - * - - - | * - - - - * | <-- PC4
+LC84 -> * - - - - - * - - - - - - * - - | - - - - - * | <-- PC6
+
+Pin
+51   -> - - - - - - - * - - * - - - - * | - - - - - * | <-- BUS1
+54   -> - - - - - - - - * - - * - - * - | - - - - - * | <-- BUS2
+12   -> - - - - - - - - - - - - - * - - | - * - - - * | <-- BUS6
+84   -> - - - - - - - - - - - - - - - - | - * - - - - | <-- BUS7
+83   -> - - - - - - - - - - - - - - - - | - - - - - - | <-- clk
+49   -> - - - - - - - * * * * * * * - - | - * * * * * | <-- T1
+1    -> - - - - - - - - - - - - - - - - | * - - - - - | <-- ~803~1
+LC3  -> - - - - - - - - - * - - - - - - | * - - - * * | <-- BUS0
+LC1  -> - - - - - - - - - - - - * - - - | * - * - * * | <-- BUS4
+LC17 -> - - - - - - - * * * * * * * - - | - * - * * * | <-- LDXXX0
+LC24 -> - - - - - - - * * * * * * * - - | - * - * * * | <-- LDXXX1
+LC65 -> - - - - - - - * * * * * * * - - | - * - * * * | <-- LDXXX2
+LC69 -> - - - - - - - - - - - - - - * * | - * * - * * | <-- MAR0
+LC51 -> - - - - - - - - - - - - - - * * | - * * * * * | <-- MAR3
+LC75 -> - - - - - - - - - - - - - - * * | - * * - * * | <-- MAR4
+LC76 -> - - - - - - - - - - - - - - * * | - * * - * * | <-- MAR5
+LC21 -> - - - - - - - - - - - - - - * * | - * * - * * | <-- MAR6
+LC19 -> - - - - - - - - - - - - - - * * | - * * - * * | <-- MAR7
+LC49 -> * - - * * * * - - - - - - - - - | - - - * - * | <-- PC3
+LC53 -> * - - - - * * - - - - - - - - - | - - - * - * | <-- PC5
+LC28 -> * - - - - - - - - - - - - - - - | - - - * - * | <-- PC7
+LC60 -> - - - - - - - - - - - - - - * - | - - - - - * | <-- MEM12
+LC41 -> - - - - - - - - - * * * * * - - | - - * * - * | <-- INC_PC
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:                  d:\maxplus\a_project\cpu\cpu.rpt
+cpu1
+
+** EQUATIONS **
+
+BUS1     : INPUT;
+BUS2     : INPUT;
+BUS6     : INPUT;
+BUS7     : INPUT;
+clk      : INPUT;
+interrupt : INPUT;
+IR4      : INPUT;
+reset    : INPUT;
+T1       : INPUT;
+~287~1   : INPUT;
+~528~1   : INPUT;
+~529~1   : INPUT;
+~530~1   : INPUT;
+~533~1   : INPUT;
+~542~1   : INPUT;
+~802~1   : INPUT;
+~803~1   : INPUT;
+~804~1   : INPUT;
+~807~1   : INPUT;
+~816~1   : INPUT;
+~828~1   : INPUT;
+~1031~1  : INPUT;
+
+-- Node name is 'BUS0' = '~1081~1' 
+-- Equation name is 'BUS0', location is LC003, type is output.
+ BUS0    = LCELL( _EQ001 $  VCC);
+  _EQ001 =  _X001 &  _X002 &  _X003 &  _X004 &  _X005 &  _X006 &  _X007;
+  _X001  = EXP( IN0 &  XXX_B0 &  XXX_B1 &  XXX_B2);
+  _X002  = EXP( BUS0 & !~287~1 & !~542~1 & !~816~1 & !~828~1 & !~1031~1);
+  _X003  = EXP( _LC073 & !XXX_B0 &  XXX_B1 &  XXX_B2);
+  _X004  = EXP( PC0 &  XXX_B0 &  XXX_B1 & !XXX_B2);
+  _X005  = EXP(!XXX_B0 &  XXX_B1 & !XXX_B2 &  ~807~1);
+  _X006  = EXP( XXX_B0 & !XXX_B1 & !XXX_B2 &  ~533~1);
+  _X007  = EXP( BUS0 & !XXX_B0 & !XXX_B1 & !XXX_B2);
+
+-- Node name is 'BUS3' = '~1078~1' 
+-- Equation name is 'BUS3', location is LC062, type is output.
+ BUS3    = LCELL( _EQ002 $  VCC);
+  _EQ002 =  _X008 &  _X009 &  _X010 &  _X011 &  _X012 &  _X013 &  _X014;
+  _X008  = EXP( IN3 &  XXX_B0 &  XXX_B1 &  XXX_B2);
+  _X009  = EXP( BUS3 & !~287~1 & !~542~1 & !~816~1 & !~828~1 & !~1031~1);
+  _X010  = EXP( _LC040 & !XXX_B0 &  XXX_B1 &  XXX_B2);
+  _X011  = EXP( PC3 &  XXX_B0 &  XXX_B1 & !XXX_B2);
+  _X012  = EXP(!XXX_B0 &  XXX_B1 & !XXX_B2 &  ~804~1);
+  _X013  = EXP( XXX_B0 & !XXX_B1 & !XXX_B2 &  ~530~1);
+  _X014  = EXP( BUS3 & !XXX_B0 & !XXX_B1 & !XXX_B2);
+
+-- Node name is 'BUS4' = '~1077~1' 
+-- Equation name is 'BUS4', location is LC001, type is output.
+ BUS4    = LCELL( _EQ003 $  VCC);
+  _EQ003 =  _X015 &  _X016 &  _X017 &  _X018 &  _X019 &  _X020;
+  _X015  = EXP( _LC034 & !XXX_B0 &  XXX_B1 &  XXX_B2);
+  _X016  = EXP( BUS4 & !~287~1 & !~542~1 & !~816~1 & !~828~1 & !~1031~1);
+  _X017  = EXP( PC4 &  XXX_B0 &  XXX_B1 & !XXX_B2);
+  _X018  = EXP(!XXX_B0 &  XXX_B1 & !XXX_B2 &  ~803~1);
+  _X019  = EXP( XXX_B0 & !XXX_B1 & !XXX_B2 &  ~529~1);
+  _X020  = EXP( BUS4 & !XXX_B0 & !XXX_B1 & !XXX_B2);
+
+-- Node name is 'BUS5' = '~1076~1' 
+-- Equation name is 'BUS5', location is LC059, type is output.
+ BUS5    = LCELL( _EQ004 $  VCC);
+  _EQ004 =  _X021 &  _X022 &  _X023 &  _X024 &  _X025 &  _X026;
+  _X021  = EXP( _LC078 & !XXX_B0 &  XXX_B1 &  XXX_B2);
+  _X022  = EXP( BUS5 & !~287~1 & !~542~1 & !~816~1 & !~828~1 & !~1031~1);
+  _X023  = EXP( PC5 &  XXX_B0 &  XXX_B1 & !XXX_B2);
+  _X024  = EXP(!XXX_B0 &  XXX_B1 & !XXX_B2 &  ~802~1);
+  _X025  = EXP( XXX_B0 & !XXX_B1 & !XXX_B2 &  ~528~1);
+  _X026  = EXP( BUS5 & !XXX_B0 & !XXX_B1 & !XXX_B2);
+
+-- Node name is ':1327' = 'INC_PC' 
+-- Equation name is 'INC_PC', location is LC041, type is buried.
+INC_PC   = TFFE( _EQ005,  T1,  VCC,  VCC,  VCC);
+  _EQ005 = !INC_PC & !reset & !uMA0 &  uMA1 & !uMA2 & !uMA3 & !uMA4 & !uMA5
+         #  INC_PC & !reset &  uMA0 & !uMA3 & !uMA4 & !uMA5
+         #  INC_PC & !reset &  uMA2 & !uMA3 & !uMA4 & !uMA5
+         #  INC_PC & !reset & !uMA1 & !uMA3 & !uMA4 & !uMA5;
+
+-- Node name is ':1043' = 'IN0' 
+-- Equation name is 'IN0', location is LC052, type is buried.
+IN0      = DFFE( GND $  VCC, GLOBAL( clk),  VCC,  VCC,  reset);
+
+-- Node name is ':1040' = 'IN3' 
+-- Equation name is 'IN3', location is LC055, type is buried.
+IN3      = DFFE( GND $  VCC, GLOBAL( clk),  VCC,  VCC,  reset);
+
+-- Node name is 'IR5' = ':1103' 
+-- Equation name is 'IR5', type is output 
+ IR5     = TFFE( _EQ006, !T1,  VCC,  VCC,  VCC);
+  _EQ006 =  BUS5 & !IR5 & !LDXXX0 &  LDXXX1 &  LDXXX2
+         # !BUS5 &  IR5 & !LDXXX0 &  LDXXX1 &  LDXXX2;
+
+-- Node name is 'IR6' = ':1102' 
+-- Equation name is 'IR6', type is output 
+ IR6     = TFFE( _EQ007, !T1,  VCC,  VCC,  VCC);
+  _EQ007 =  BUS6 & !IR6 & !LDXXX0 &  LDXXX1 &  LDXXX2
+         # !BUS6 &  IR6 & !LDXXX0 &  LDXXX1 &  LDXXX2;
+
+-- Node name is 'IR7' = ':1101' 
+-- Equation name is 'IR7', type is output 
+ IR7     = TFFE( _EQ008, !T1,  VCC,  VCC,  VCC);
+  _EQ008 =  BUS7 & !IR7 & !LDXXX0 &  LDXXX1 &  LDXXX2
+         # !BUS7 &  IR7 & !LDXXX0 &  LDXXX1 &  LDXXX2;
+
+-- Node name is ':1277' = 'LDXXX0' 
+-- Equation name is 'LDXXX0', location is LC017, type is output.
+ LDXXX0  = DFFE( _EQ009 $  GND,  T1,  VCC,  VCC,  VCC);
+  _EQ009 = !reset & !uMA0 &  uMA1 & !uMA2 & !uMA3 & !uMA4 & !uMA5
+         # !reset &  uMA0 &  uMA2 & !uMA3 & !uMA4 & !uMA5
+         #  LDXXX0 &  _X027;
+  _X027  = EXP(!reset & !uMA3 & !uMA4 & !uMA5);
+
+-- Node name is ':1276' = 'LDXXX1' 
+-- Equation name is 'LDXXX1', location is LC024, type is output.
+ LDXXX1  = TFFE( _EQ010,  T1,  VCC,  VCC,  VCC);
+  _EQ010 = !LDXXX1 & !reset &  uMA0 &  uMA2 & !uMA3 & !uMA4 & !uMA5
+         # !LDXXX1 & !reset &  uMA0 &  uMA1 & !uMA3 & !uMA4 & !uMA5
+         #  LDXXX1 & !reset & !uMA1 & !uMA2 & !uMA3 & !uMA4 & !uMA5
+         #  LDXXX1 & !reset & !uMA0 & !uMA3 & !uMA4 & !uMA5;
+
+-- Node name is ':1275' = 'LDXXX2' 
+-- Equation name is 'LDXXX2', location is LC065, type is output.
+ LDXXX2  = TFFE( _EQ011,  T1,  VCC,  VCC,  VCC);
+  _EQ011 =  LDXXX2 & !reset &  uMA0 &  uMA2 & !uMA3 & !uMA4 & !uMA5
+         # !LDXXX2 & !reset &  uMA1 & !uMA2 & !uMA3 & !uMA4 & !uMA5
+         # !LDXXX2 & !reset & !uMA0 &  uMA1 & !uMA3 & !uMA4 & !uMA5
+         #  LDXXX2 & !reset & !uMA1 & !uMA3 & !uMA4 & !uMA5;
+
+-- Node name is 'MAR0' = ':858' 
+-- Equation name is 'MAR0', type is output 
+ MAR0    = TFFE( _EQ012, !T1,  VCC,  VCC,  VCC);
+  _EQ012 =  BUS0 &  LDXXX0 & !LDXXX1 &  LDXXX2 & !MAR0
+         # !BUS0 &  LDXXX0 & !LDXXX1 &  LDXXX2 &  MAR0;
+
+-- Node name is 'MAR1' = ':857' 
+-- Equation name is 'MAR1', type is output 
+ MAR1    = TFFE( _EQ013, !T1,  VCC,  VCC,  VCC);
+  _EQ013 =  BUS1 &  LDXXX0 & !LDXXX1 &  LDXXX2 & !MAR1
+         # !BUS1 &  LDXXX0 & !LDXXX1 &  LDXXX2 &  MAR1;
+
+-- Node name is 'MAR2' = ':856' 
+-- Equation name is 'MAR2', type is output 
+ MAR2    = TFFE( _EQ014, !T1,  VCC,  VCC,  VCC);
+  _EQ014 =  BUS2 &  LDXXX0 & !LDXXX1 &  LDXXX2 & !MAR2
+         # !BUS2 &  LDXXX0 & !LDXXX1 &  LDXXX2 &  MAR2;
+
+-- Node name is 'MAR3' = ':855' 
+-- Equation name is 'MAR3', type is output 
+ MAR3    = TFFE( _EQ015, !T1,  VCC,  VCC,  VCC);
+  _EQ015 =  BUS3 &  LDXXX0 & !LDXXX1 &  LDXXX2 & !MAR3
+         # !BUS3 &  LDXXX0 & !LDXXX1 &  LDXXX2 &  MAR3;
+
+-- Node name is 'MAR4' = ':854' 
+-- Equation name is 'MAR4', type is output 
+ MAR4    = TFFE( _EQ016, !T1,  VCC,  VCC,  VCC);
+  _EQ016 =  BUS4 &  LDXXX0 & !LDXXX1 &  LDXXX2 & !MAR4
+         # !BUS4 &  LDXXX0 & !LDXXX1 &  LDXXX2 &  MAR4;
+
+-- Node name is 'MAR5' = ':853' 
+-- Equation name is 'MAR5', type is output 
+ MAR5    = TFFE( _EQ017, !T1,  VCC,  VCC,  VCC);
+  _EQ017 =  BUS5 &  LDXXX0 & !LDXXX1 &  LDXXX2 & !MAR5
+         # !BUS5 &  LDXXX0 & !LDXXX1 &  LDXXX2 &  MAR5;
+
+-- Node name is 'MAR6' = ':852' 
+-- Equation name is 'MAR6', type is output 
+ MAR6    = TFFE( _EQ018, !T1,  VCC,  VCC,  VCC);
+  _EQ018 =  BUS6 &  LDXXX0 & !LDXXX1 &  LDXXX2 & !MAR6
+         # !BUS6 &  LDXXX0 & !LDXXX1 &  LDXXX2 &  MAR6;
+
+-- Node name is 'MAR7' = ':851' 
+-- Equation name is 'MAR7', type is output 
+ MAR7    = TFFE( _EQ019, !T1,  VCC,  VCC,  VCC);
+  _EQ019 =  BUS7 &  LDXXX0 & !LDXXX1 &  LDXXX2 & !MAR7
+         # !BUS7 &  LDXXX0 & !LDXXX1 &  LDXXX2 &  MAR7;
+
+-- Node name is ':916' = 'MEM12' 
+-- Equation name is 'MEM12', location is LC060, type is buried.
+MEM12    = DFFE( GND $  VCC, GLOBAL( clk),  VCC,  VCC,  reset);
+
+-- Node name is ':913' = 'MEM15' 
+-- Equation name is 'MEM15', location is LC056, type is buried.
+MEM15    = DFFE( GND $  VCC, GLOBAL( clk),  VCC,  VCC,  reset);
+
+-- Node name is ':948' = 'MEM24' 
+-- Equation name is 'MEM24', location is LC057, type is buried.
+MEM24    = DFFE( GND $  VCC, GLOBAL( clk),  VCC,  VCC,  reset);
+
+-- Node name is ':986' = 'MEM30' 
+-- Equation name is 'MEM30', location is LC054, type is buried.
+MEM30    = DFFE( GND $  VCC, GLOBAL( clk),  VCC,  VCC,  reset);
+
+-- Node name is ':982' = 'MEM34' 
+-- Equation name is 'MEM34', location is LC061, type is buried.
+MEM34    = DFFE( GND $  VCC, GLOBAL( clk),  VCC,  VCC,  reset);
+
+-- Node name is 'PC0' = ':1376' 
+-- Equation name is 'PC0', type is output 
+ PC0     = DFFE( _EQ020 $  GND, !T1,  VCC,  VCC,  VCC);
+  _EQ020 =  BUS0 &  LDXXX0 &  LDXXX1 &  LDXXX2
+         #  INC_PC & !PC0 &  _X028
+         # !INC_PC &  PC0 &  _X028;
+  _X028  = EXP( LDXXX0 &  LDXXX1 &  LDXXX2);
+
+-- Node name is 'PC1' = ':1375' 
+-- Equation name is 'PC1', type is output 
+ PC1     = DFFE( _EQ021 $  GND, !T1,  VCC,  VCC,  VCC);
+  _EQ021 =  BUS1 &  LDXXX0 &  LDXXX1 &  LDXXX2
+         #  INC_PC &  _LC095 &  _X028
+         # !INC_PC &  PC1 &  _X028;
+  _X028  = EXP( LDXXX0 &  LDXXX1 &  LDXXX2);
+
+-- Node name is 'PC2' = ':1374' 
+-- Equation name is 'PC2', type is output 
+ PC2     = DFFE( _EQ022 $  GND, !T1,  VCC,  VCC,  VCC);
+  _EQ022 =  BUS2 &  LDXXX0 &  LDXXX1 &  LDXXX2
+         #  INC_PC &  _LC093 &  _X028
+         # !INC_PC &  PC2 &  _X028;
+  _X028  = EXP( LDXXX0 &  LDXXX1 &  LDXXX2);
+
+-- Node name is 'PC3' = ':1373' 
+-- Equation name is 'PC3', type is output 
+ PC3     = DFFE( _EQ023 $  GND, !T1,  VCC,  VCC,  VCC);
+  _EQ023 =  BUS3 &  LDXXX0 &  LDXXX1 &  LDXXX2
+         #  INC_PC &  _LC090 &  _X028
+         # !INC_PC &  PC3 &  _X028;
+  _X028  = EXP( LDXXX0 &  LDXXX1 &  LDXXX2);
+
+-- Node name is 'PC4' = ':1372' 
+-- Equation name is 'PC4', type is output 
+ PC4     = DFFE( _EQ024 $  GND, !T1,  VCC,  VCC,  VCC);
+  _EQ024 =  BUS4 &  LDXXX0 &  LDXXX1 &  LDXXX2
+         #  INC_PC &  _LC085 &  _X028
+         # !INC_PC &  PC4 &  _X028;
+  _X028  = EXP( LDXXX0 &  LDXXX1 &  LDXXX2);
+
+-- Node name is 'PC5' = ':1371' 
+-- Equation name is 'PC5', type is output 
+ PC5     = DFFE( _EQ025 $  GND, !T1,  VCC,  VCC,  VCC);
+  _EQ025 =  BUS5 &  LDXXX0 &  LDXXX1 &  LDXXX2
+         #  INC_PC &  _LC094 &  _X028
+         # !INC_PC &  PC5 &  _X028;
+  _X028  = EXP( LDXXX0 &  LDXXX1 &  LDXXX2);
+
+-- Node name is 'PC6' = ':1370' 
+-- Equation name is 'PC6', type is output 
+ PC6     = DFFE( _EQ026 $  GND, !T1,  VCC,  VCC,  VCC);
+  _EQ026 =  BUS6 &  LDXXX0 &  LDXXX1 &  LDXXX2
+         #  INC_PC &  _LC087 &  _X028
+         # !INC_PC &  PC6 &  _X028;
+  _X028  = EXP( LDXXX0 &  LDXXX1 &  LDXXX2);
+
+-- Node name is 'PC7' = ':1369' 
+-- Equation name is 'PC7', type is output 
+ PC7     = DFFE( _EQ027 $  _LC058, !T1,  VCC,  VCC,  VCC);
+  _EQ027 =  BUS7 & !_LC058 &  LDXXX0 &  LDXXX1 &  LDXXX2;
+
+-- Node name is ':327' = 'S0' 
+-- Equation name is 'S0', location is LC037, type is output.
+ S0      = TFFE( _EQ028,  T1,  VCC,  VCC,  VCC);
+  _EQ028 = !reset &  S0 & !uMA3 & !uMA4 & !uMA5;
+
+-- Node name is ':326' = 'S1' 
+-- Equation name is 'S1', location is LC038, type is output.
+ S1      = TFFE( _EQ029,  T1,  VCC,  VCC,  VCC);
+  _EQ029 = !reset &  S1 & !uMA3 & !uMA4 & !uMA5;
+
+-- Node name is 'uMA0' = ':1226' 
+-- Equation name is 'uMA0', type is output 
+ uMA0    = DFFE( _EQ030 $  GND,  T1,  VCC,  VCC,  VCC);
+  _EQ030 = !IR4 & !IR6 & !IR7 & !reset & !uMA0 & !uMA3 & !uMA4 & !uMA5
+         #  interrupt & !reset & !uMA1 & !uMA2 & !uMA3 & !uMA4 & !uMA5
+         # !reset & !uMA0 & !uMA3 & !uMA4 & !uMA5 &  _X029
+         # !reset &  uMA0 &  _X030;
+  _X029  = EXP(!uMA1 &  uMA2);
+  _X030  = EXP(!uMA3 & !uMA4 & !uMA5);
+
+-- Node name is 'uMA1' = ':1225' 
+-- Equation name is 'uMA1', type is output 
+ uMA1    = DFFE( _EQ031 $  GND,  T1,  VCC,  VCC,  VCC);
+  _EQ031 = !IR4 &  IR5 & !IR6 & !IR7 & !reset & !uMA1 &  uMA2 & !uMA3 & !uMA4 & 
+             !uMA5
+         #  IR4 & !IR5 & !IR6 & !IR7 & !reset & !uMA1 &  uMA2 & !uMA3 & !uMA4 & 
+             !uMA5
+         # !reset &  uMA0 & !uMA1 & !uMA3 & !uMA4 & !uMA5 &  _X031
+         # !reset &  uMA1 &  _X032;
+  _X031  = EXP( interrupt & !uMA2);
+  _X032  = EXP( uMA0 & !uMA3 & !uMA4 & !uMA5);
+
+-- Node name is 'uMA2' = ':1224' 
+-- Equation name is 'uMA2', type is output 
+ uMA2    = TFFE( _EQ032,  T1,  VCC,  VCC,  VCC);
+  _EQ032 = !reset &  uMA0 &  uMA1 & !uMA2 & !uMA3 & !uMA4 & !uMA5
+         #  interrupt & !reset &  uMA0 & !uMA2 & !uMA3 & !uMA4 & !uMA5
+         #  uMA0 &  uMA1 &  uMA2 & !uMA3 & !uMA4 & !uMA5
+         #  reset &  uMA2;
+
+-- Node name is 'uMA3' = ':1223' 
+-- Equation name is 'uMA3', type is output 
+ uMA3    = TFFE( _EQ033,  T1,  VCC,  VCC,  VCC);
+  _EQ033 =  reset &  uMA3;
+
+-- Node name is 'uMA4' = ':1222' 
+-- Equation name is 'uMA4', type is output 
+ uMA4    = TFFE( _EQ034,  T1,  VCC,  VCC,  VCC);
+  _EQ034 =  interrupt & !reset &  uMA0 & !uMA1 & !uMA2 & !uMA3 & !uMA4 & 
+             !uMA5
+         #  reset &  uMA4;
+
+-- Node name is 'uMA5' = ':1221' 
+-- Equation name is 'uMA5', type is output 
+ uMA5    = TFFE( _EQ035,  T1,  VCC,  VCC,  VCC);
+  _EQ035 =  interrupt & !reset &  uMA0 & !uMA1 & !uMA2 & !uMA3 & !uMA4 & 
+             !uMA5
+         #  reset &  uMA5;
+
+-- Node name is ':274' = 'XXX_B0' 
+-- Equation name is 'XXX_B0', location is LC046, type is output.
+ XXX_B0  = DFFE( _EQ036 $  GND,  T1,  VCC,  VCC,  VCC);
+  _EQ036 = !reset &  uMA0 & !uMA1 &  uMA2 & !uMA3 & !uMA4 & !uMA5
+         # !reset & !uMA0 & !uMA2 & !uMA3 & !uMA4 & !uMA5
+         #  XXX_B0 &  _X027;
+  _X027  = EXP(!reset & !uMA3 & !uMA4 & !uMA5);
+
+-- Node name is ':273' = 'XXX_B1' 
+-- Equation name is 'XXX_B1', location is LC035, type is output.
+ XXX_B1  = TFFE( _EQ037,  T1,  VCC,  VCC,  VCC);
+  _EQ037 = !reset &  uMA0 &  uMA2 & !uMA3 & !uMA4 & !uMA5 & !XXX_B1
+         # !reset & !uMA0 & !uMA1 & !uMA3 & !uMA4 & !uMA5 &  XXX_B1
+         # !reset & !uMA1 & !uMA2 & !uMA3 & !uMA4 & !uMA5 &  XXX_B1
+         # !reset &  uMA1 & !uMA3 & !uMA4 & !uMA5 & !XXX_B1;
+
+-- Node name is ':272' = 'XXX_B2' 
+-- Equation name is 'XXX_B2', location is LC048, type is output.
+ XXX_B2  = DFFE( _EQ038 $  GND,  T1,  VCC,  VCC,  VCC);
+  _EQ038 = !reset &  uMA0 &  uMA1 & !uMA2 & !uMA3 & !uMA4 & !uMA5
+         # !reset &  uMA0 & !uMA1 &  uMA2 & !uMA3 & !uMA4 & !uMA5
+         # !reset & !uMA0 & !uMA1 & !uMA2 & !uMA3 & !uMA4 & !uMA5
+         #  XXX_B2 &  _X027;
+  _X027  = EXP(!reset & !uMA3 & !uMA4 & !uMA5);
+
+-- Node name is '|lpm_add_sub:1413|addcore:adder|result_node7' from file "addcore.tdf" line 164, column 16
+-- Equation name is '_LC082', type is buried 
+_LC082   = LCELL( _EQ039 $  PC7);
+  _EQ039 =  PC0 &  PC1 &  PC2 &  PC3 &  PC4 &  PC5 &  PC6;
+
+-- Node name is '|lpm_add_sub:1413|addcore:adder|~242~1' from file "addcore.tdf" line 392, column 42
+-- Equation name is '_LC095', type is buried 
+-- synthesized logic cell 
+_LC095   = LCELL( PC0 $  PC1);
+
+-- Node name is '|lpm_add_sub:1413|addcore:adder|~245~1' from file "addcore.tdf" line 392, column 42
+-- Equation name is '_LC093', type is buried 
+-- synthesized logic cell 
+_LC093   = LCELL( _EQ040 $  PC2);
+  _EQ040 =  PC0 &  PC1;
+
+-- Node name is '|lpm_add_sub:1413|addcore:adder|~246~1' from file "addcore.tdf" line 390, column 27
+-- Equation name is '_LC090', type is buried 
+-- synthesized logic cell 
+_LC090   = LCELL( _EQ041 $  PC3);
+  _EQ041 =  PC0 &  PC1 &  PC2;
+
+-- Node name is '|lpm_add_sub:1413|addcore:adder|~249~1' from file "addcore.tdf" line 392, column 42
+-- Equation name is '_LC085', type is buried 
+-- synthesized logic cell 
+_LC085   = LCELL( _EQ042 $  PC4);
+  _EQ042 =  PC0 &  PC1 &  PC2 &  PC3;
+
+-- Node name is '|lpm_add_sub:1413|addcore:adder|~252~1' from file "addcore.tdf" line 392, column 42
+-- Equation name is '_LC094', type is buried 
+-- synthesized logic cell 
+_LC094   = LCELL( _EQ043 $  PC5);
+  _EQ043 =  PC0 &  PC1 &  PC2 &  PC3 &  PC4;
+
+-- Node name is '|lpm_add_sub:1413|addcore:adder|~255~1' from file "addcore.tdf" line 392, column 42
+-- Equation name is '_LC087', type is buried 
+-- synthesized logic cell 
+_LC087   = LCELL( _EQ044 $  PC6);
+  _EQ044 =  PC0 &  PC1 &  PC2 &  PC3 &  PC4 &  PC5;
+
+-- Node name is '~1015~1' 
+-- Equation name is '~1015~1', location is LC029, type is output.
+ ~1015~1 = LCELL( _EQ045 $  _EQ046);
+  _EQ045 =  _X033 &  _X034 &  _X035 &  _X036 &  _X037;
+  _X033  = EXP( MAR0 &  MAR1 & !MAR2 & !MAR3 & !MAR4 & !MAR5 & !MAR6 & !MAR7);
+  _X034  = EXP(!MAR2 & !MAR3 & !MAR4 & !MAR5 & !MAR6 & !MAR7);
+  _X035  = EXP( MAR0 & !MAR1 & !MAR2 & !MAR3 & !MAR4 & !MAR5 & !MAR6 & !MAR7);
+  _X036  = EXP(!MAR0 &  MAR1 & !MAR2 & !MAR3 & !MAR4 & !MAR5 & !MAR6 & !MAR7);
+  _X037  = EXP(!MAR0 & !MAR1 & !MAR2 & !MAR3 & !MAR4 & !MAR5 & !MAR6 & !MAR7);
+  _EQ046 = !BUS7 &  _X038;
+  _X038  = EXP(!MAR2 & !MAR3 & !MAR4 & !MAR5 & !MAR6 & !MAR7);
+
+-- Node name is '~1016~1' 
+-- Equation name is '~1016~1', location is LC032, type is output.
+ ~1016~1 = LCELL( _EQ047 $  _EQ048);
+  _EQ047 =  _X039 &  _X040 &  _X041 &  _X042 &  _X043;
+  _X039  = EXP( MAR0 &  MAR1 & !MAR2 & !MAR3 & !MAR4 & !MAR5 & !MAR6 & !MAR7);
+  _X040  = EXP(!MAR2 & !MAR3 & !MAR4 & !MAR5 & !MAR6 & !MAR7);
+  _X041  = EXP( MAR0 & !MAR1 & !MAR2 & !MAR3 & !MAR4 & !MAR5 & !MAR6 & !MAR7);
+  _X042  = EXP(!MAR0 &  MAR1 & !MAR2 & !MAR3 & !MAR4 & !MAR5 & !MAR6 & !MAR7);
+  _X043  = EXP(!MAR0 & !MAR1 & !MAR2 & !MAR3 & !MAR4 & !MAR5 & !MAR6 & !MAR7);
+  _EQ048 = !BUS6 &  _X038;
+  _X038  = EXP(!MAR2 & !MAR3 & !MAR4 & !MAR5 & !MAR6 & !MAR7);
+
+-- Node name is '~1017~1' 
+-- Equation name is '~1017~1', location is LC078, type is buried.
+-- synthesized logic cell 
+_LC078   = LCELL( _EQ049 $  _EQ050);
+  _EQ049 =  _X044 &  _X045 &  _X046 &  _X047 &  _X048;
+  _X044  = EXP( MAR0 &  MAR1 & !MAR2 & !MAR3 & !MAR4 & !MAR5 & !MAR6 & !MAR7);
+  _X045  = EXP(!MAR2 & !MAR3 & !MAR4 & !MAR5 & !MAR6 & !MAR7 & !MEM15);
+  _X046  = EXP( MAR0 & !MAR1 & !MAR2 & !MAR3 & !MAR4 & !MAR5 & !MAR6 & !MAR7 & 
+             !MEM15);
+  _X047  = EXP(!MAR0 &  MAR1 & !MAR2 & !MAR3 & !MAR4 & !MAR5 & !MAR6 & !MAR7);
+  _X048  = EXP(!MAR0 & !MAR1 & !MAR2 & !MAR3 & !MAR4 & !MAR5 & !MAR6 & !MAR7);
+  _EQ050 = !BUS5 &  _X038;
+  _X038  = EXP(!MAR2 & !MAR3 & !MAR4 & !MAR5 & !MAR6 & !MAR7);
+
+-- Node name is '~1018~1' 
+-- Equation name is '~1018~1', location is LC034, type is buried.
+-- synthesized logic cell 
+_LC034   = LCELL( _EQ051 $  _EQ052);
+  _EQ051 =  _X049 &  _X050 &  _X051 &  _X052 &  _X053;
+  _X049  = EXP( MAR0 &  MAR1 & !MAR2 & !MAR3 & !MAR4 & !MAR5 & !MAR6 & !MAR7 & 
+             !MEM34);
+  _X050  = EXP(!MAR2 & !MAR3 & !MAR4 & !MAR5 & !MAR6 & !MAR7 & !MEM24 & !MEM34);
+  _X051  = EXP( MAR0 & !MAR1 & !MAR2 & !MAR3 & !MAR4 & !MAR5 & !MAR6 & !MAR7);
+  _X052  = EXP(!MAR0 &  MAR1 & !MAR2 & !MAR3 & !MAR4 & !MAR5 & !MAR6 & !MAR7 & 
+             !MEM24);
+  _X053  = EXP(!MAR0 & !MAR1 & !MAR2 & !MAR3 & !MAR4 & !MAR5 & !MAR6 & !MAR7);
+  _EQ052 = !BUS4 &  _X038;
+  _X038  = EXP(!MAR2 & !MAR3 & !MAR4 & !MAR5 & !MAR6 & !MAR7);
+
+-- Node name is '~1019~1' 
+-- Equation name is '~1019~1', location is LC040, type is buried.
+-- synthesized logic cell 
+_LC040   = LCELL( _EQ053 $  _EQ054);
+  _EQ053 =  _X054 &  _X055 &  _X056 &  _X057 &  _X058;
+  _X054  = EXP( MAR0 &  MAR1 & !MAR2 & !MAR3 & !MAR4 & !MAR5 & !MAR6 & !MAR7);
+  _X055  = EXP(!MAR2 & !MAR3 & !MAR4 & !MAR5 & !MAR6 & !MAR7);
+  _X056  = EXP( MAR0 & !MAR1 & !MAR2 & !MAR3 & !MAR4 & !MAR5 & !MAR6 & !MAR7);
+  _X057  = EXP(!MAR0 &  MAR1 & !MAR2 & !MAR3 & !MAR4 & !MAR5 & !MAR6 & !MAR7);
+  _X058  = EXP(!MAR0 & !MAR1 & !MAR2 & !MAR3 & !MAR4 & !MAR5 & !MAR6 & !MAR7);
+  _EQ054 = !BUS3 &  _X038;
+  _X038  = EXP(!MAR2 & !MAR3 & !MAR4 & !MAR5 & !MAR6 & !MAR7);
+
+-- Node name is '~1020~1' 
+-- Equation name is '~1020~1', location is LC081, type is output.
+ ~1020~1 = LCELL( _EQ055 $  _EQ056);
+  _EQ055 =  _X059 &  _X060 &  _X061 &  _X062 &  _X063;
+  _X059  = EXP( MAR0 &  MAR1 & !MAR2 & !MAR3 & !MAR4 & !MAR5 & !MAR6 & !MAR7);
+  _X060  = EXP(!MAR2 & !MAR3 & !MAR4 & !MAR5 & !MAR6 & !MAR7 & !MEM12);
+  _X061  = EXP( MAR0 & !MAR1 & !MAR2 & !MAR3 & !MAR4 & !MAR5 & !MAR6 & !MAR7 & 
+             !MEM12);
+  _X062  = EXP(!MAR0 &  MAR1 & !MAR2 & !MAR3 & !MAR4 & !MAR5 & !MAR6 & !MAR7);
+  _X063  = EXP(!MAR0 & !MAR1 & !MAR2 & !MAR3 & !MAR4 & !MAR5 & !MAR6 & !MAR7);
+  _EQ056 = !BUS2 &  _X038;
+  _X038  = EXP(!MAR2 & !MAR3 & !MAR4 & !MAR5 & !MAR6 & !MAR7);
+
+-- Node name is '~1021~1' 
+-- Equation name is '~1021~1', location is LC083, type is output.
+ ~1021~1 = LCELL( _EQ057 $  _EQ058);
+  _EQ057 =  _X064 &  _X065 &  _X066 &  _X067 &  _X068;
+  _X064  = EXP( MAR0 &  MAR1 & !MAR2 & !MAR3 & !MAR4 & !MAR5 & !MAR6 & !MAR7);
+  _X065  = EXP(!MAR2 & !MAR3 & !MAR4 & !MAR5 & !MAR6 & !MAR7);
+  _X066  = EXP( MAR0 & !MAR1 & !MAR2 & !MAR3 & !MAR4 & !MAR5 & !MAR6 & !MAR7);
+  _X067  = EXP(!MAR0 &  MAR1 & !MAR2 & !MAR3 & !MAR4 & !MAR5 & !MAR6 & !MAR7);
+  _X068  = EXP(!MAR0 & !MAR1 & !MAR2 & !MAR3 & !MAR4 & !MAR5 & !MAR6 & !MAR7);
+  _EQ058 = !BUS1 &  _X038;
+  _X038  = EXP(!MAR2 & !MAR3 & !MAR4 & !MAR5 & !MAR6 & !MAR7);
+
+-- Node name is '~1022~1' 
+-- Equation name is '~1022~1', location is LC073, type is buried.
+-- synthesized logic cell 
+_LC073   = LCELL( _EQ059 $  _EQ060);
+  _EQ059 =  _X069 &  _X070 &  _X071 &  _X072 &  _X073;
+  _X069  = EXP( MAR0 &  MAR1 & !MAR2 & !MAR3 & !MAR4 & !MAR5 & !MAR6 & !MAR7 & 
+             !MEM30);
+  _X070  = EXP(!MAR2 & !MAR3 & !MAR4 & !MAR5 & !MAR6 & !MAR7 & !MEM30);
+  _X071  = EXP( MAR0 & !MAR1 & !MAR2 & !MAR3 & !MAR4 & !MAR5 & !MAR6 & !MAR7);
+  _X072  = EXP(!MAR0 &  MAR1 & !MAR2 & !MAR3 & !MAR4 & !MAR5 & !MAR6 & !MAR7);
+  _X073  = EXP(!MAR0 & !MAR1 & !MAR2 & !MAR3 & !MAR4 & !MAR5 & !MAR6 & !MAR7);
+  _EQ060 = !BUS0 &  _X038;
+  _X038  = EXP(!MAR2 & !MAR3 & !MAR4 & !MAR5 & !MAR6 & !MAR7);
+
+-- Node name is '~1353~1' 
+-- Equation name is '~1353~1', location is LC058, type is buried.
+-- synthesized logic cell 
+_LC058   = LCELL( _EQ061 $  GND);
+  _EQ061 =  INC_PC &  _LC082 &  _X028
+         # !INC_PC &  PC7 &  _X028;
+  _X028  = EXP( LDXXX0 &  LDXXX1 &  LDXXX2);
+
+
+
+--     Shareable expanders that are duplicated in multiple LABs:
+--    _X027 occurs in LABs B, C
+--    _X028 occurs in LABs D, F
+--    _X038 occurs in LABs B, C, E, F
+
+
+
+
+Device-Specific Information:                  d:\maxplus\a_project\cpu\cpu.rpt
+cpu2
+
+***** Logic for device 'cpu2' compiled without errors.
+
+
+
+
+Device: EPM7064LC84-7
+
+Device Options:
+    Turbo Bit                                    = ON
+    Security Bit                                 = OFF
+    MultiVolt I/O                              = OFF
+
+
+
+Device-Specific Information:                  d:\maxplus\a_project\cpu\cpu.rpt
+cpu2
+
+** ERROR SUMMARY **
+
+Info: Chip 'cpu2' in device 'EPM7064LC84-7' has less than 20% of pins available for future logic changes -- if your project is likely to change, Altera recommends using a larger device
+                 R  R  R     R  R  R                    R                    
+                 E  E  E     E  E  E                    E                    
+                 S  S  S     S  S  S  V                 S  ~  ~              
+                 E  E  E     E  E  E  C                 E  8  8  V           
+              B  R  R  R     R  R  R  C                 R  0  0  C     O     
+              U  V  V  V  G  V  V  V  I  G  G  G  c  G  V  7  2  C  R  U  R  
+              S  E  E  E  N  E  E  E  N  N  N  N  l  N  E  ~  ~  I  2  T  1  
+              0  D  D  D  D  D  D  D  T  D  D  D  k  D  D  1  1  O  0  0  5  
+            -----------------------------------------------------------------_ 
+          /  11 10  9  8  7  6  5  4  3  2  1 84 83 82 81 80 79 78 77 76 75   | 
+    BUS2 | 12                                                              74 | OUT5 
+   VCCIO | 13                                                              73 | R05 
+    BUS3 | 14                                                              72 | GND 
+    BUS5 | 15                                                              71 | R10 
+   reset | 16                                                              70 | OUT1 
+    BUS4 | 17                                                              69 | R30 
+    BUS1 | 18                                                              68 | R25 
+     GND | 19                                                              67 | R35 
+  LDXXX1 | 20                                                              66 | VCCIO 
+  LDXXX0 | 21                                                              65 | R00 
+  LDXXX2 | 22                        EPM7064LC84-7                         64 | IR0 
+     LDR | 23                                                              63 | IR1 
+     IR4 | 24                                                              62 | ~803~1 
+      T2 | 25                                                              61 | ~806~1 
+   VCCIO | 26                                                              60 | ~805~1 
+    LDIR | 27                                                              59 | GND 
+  ~804~1 | 28                                                              58 | R14 
+      B4 | 29                                                              57 | OUT2 
+    OUT3 | 30                                                              56 | R12 
+    OUT4 | 31                                                              55 | R11 
+     GND | 32                                                              54 | R32 
+         |_  33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53  _| 
+           ------------------------------------------------------------------ 
+              R  A  R  R  R  V  R  T  I  G  V  I  R  R  G  R  R  R  R  R  V  
+              3  4  1  2  0  C  0  1  R  N  C  R  3  0  N  2  0  2  2  3  C  
+              3     3  3  3  C  4     3  D  C  2  4  1  D  1  2  2  4  1  C  
+                             I              I                             I  
+                             O              N                             O  
+                                            T                                
+                                                                             
+                                                                             
+
+
+N.C. = No Connect. This pin has no internal connection to the device.
+VCCINT = Dedicated power pin, which MUST be connected to VCC (5.0 volts).
+VCCIO = Dedicated power pin, which MUST be connected to VCC (5.0 volts).
+GND = Dedicated ground pin or unused dedicated input, which MUST be connected to GND.
+RESERVED = Unused I/O pin, which MUST be left unconnected.
+
+
+
+Device-Specific Information:                  d:\maxplus\a_project\cpu\cpu.rpt
+cpu2
+
+** RESOURCE USAGE **
+
+                                                Shareable     External
+Logic Array Block     Logic Cells   I/O Pins    Expanders   Interconnect
+
+A:     LC1 - LC16     0/16(  0%)  10/16( 62%)   0/16(  0%)   0/36(  0%) 
+B:    LC17 - LC32    16/16(100%)  16/16(100%)   0/16(  0%)  21/36( 58%) 
+C:    LC33 - LC48    16/16(100%)  16/16(100%)   0/16(  0%)  24/36( 66%) 
+D:    LC49 - LC64    15/16( 93%)  15/16( 93%)   0/16(  0%)  22/36( 61%) 
+
+
+Total dedicated input pins used:                 1/4      ( 25%)
+Total I/O pins used:                            57/64     ( 89%)
+Total logic cells used:                         47/64     ( 73%)
+Total shareable expanders used:                  0/64     (  0%)
+Total Turbo logic cells used:                   47/64     ( 73%)
+Total shareable expanders not available (n/a):   0/64     (  0%)
+Average fan-in:                                  6.76
+Total fan-in:                                   318
+
+Total input pins required:                      11
+Total output pins required:                     47
+Total bidirectional pins required:               0
+Total logic cells required:                     47
+Total flipflops required:                       39
+Total product terms required:                  139
+Total logic cells lending parallel expanders:    0
+Total shareable expanders in database:           0
+
+Synthesized logic cells:                         6/  64   (  9%)
+
+
+
+Device-Specific Information:                  d:\maxplus\a_project\cpu\cpu.rpt
+cpu2
+
+** INPUTS **
+
+                                         Shareable
+                                         Expanders     Fan-In    Fan-Out
+ Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
+  11   (10)  (A)      INPUT    s          0      0   0    0    0    6    0  BUS0
+  18    (4)  (A)      INPUT    s          0      0   0    0    0    6    0  BUS1
+  12    (9)  (A)      INPUT    s          0      0   0    0    0    6    0  BUS2
+  14    (8)  (A)      INPUT    s          0      0   0    0    0    6    0  BUS3
+  17    (5)  (A)      INPUT    s          0      0   0    0    0    8    0  BUS4
+  15    (7)  (A)      INPUT    s          0      0   0    0    0    5    0  BUS5
+  83      -   -       INPUT  G            0      0   0    0    0    0    0  clk
+  21    (2)  (A)      INPUT    s          0      0   0    0    0   39    0  LDXXX0
+  20    (3)  (A)      INPUT    s          0      0   0    0    0   39    0  LDXXX1
+  22    (1)  (A)      INPUT    s          0      0   0    0    0   39    0  LDXXX2
+  16    (6)  (A)      INPUT               0      0   0    0    0    2    0  reset
+
+
+Code:
+
+s = Synthesized pin or logic cell
+t = Turbo logic cell
++ = Synchronous flipflop
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+G = Global Source. Fan-out destinations counted here do not include destinations
+that are driven using global routing resources. Refer to the Auto Global Signals,
+Clock Signals, Clear Signals, Synchronous Load Signals, and Synchronous Clear Signals
+Sections of this Report File for information on which signals' fan-outs are used as
+Clock, Clear, Preset, Output Enable, and synchronous Load signals.
+
+
+Device-Specific Information:                  d:\maxplus\a_project\cpu\cpu.rpt
+cpu2
+
+** OUTPUTS **
+
+                                         Shareable
+                                         Expanders     Fan-In    Fan-Out
+ Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
+  34     23    B         FF      t        0      0   0    4    2    1    0  A4
+  29     27    B         FF      t        0      0   0    4    2    1    0  B4
+  64     50    D         FF      t        0      0   0    4    2    7    0  IR0
+  63     49    D         FF      t        0      0   0    4    2    7    0  IR1
+  44     33    C         FF      t        0      0   0    4    2   25    0  IR2
+  41     17    B         FF      t        0      0   0    4    2   25    0  IR3
+  24     31    B         FF      t        0      0   0    4    2    1    0  IR4
+  27     29    B     OUTPUT      t        0      0   0    3    0    0    0  LDIR
+  23     32    B     OUTPUT      t        0      0   0    3    0    0    0  LDR
+  76     60    D         FF      t        0      0   0    4    2    1    0  OUT0
+  70     55    D         FF      t        0      0   0    4    2    1    0  OUT1
+  57     44    C         FF      t        0      0   0    4    2    1    0  OUT2
+  30     26    B         FF      t        0      0   0    4    2    1    0  OUT3
+  31     25    B         FF      t        0      0   0    4    2    1    0  OUT4
+  74     58    D         FF      t        0      0   0    4    2    1    0  OUT5
+  65     51    D         FF      t        0      0   0    4    4    2    0  R00
+  46     35    C         FF      t        0      0   0    4    4    2    0  R01
+  49     37    C         FF      t        0      0   0    4    4    2    0  R02
+  37     20    B         FF      t        0      0   0    4    4    2    0  R03
+  39     19    B         FF      t        0      0   0    4    4    2    0  R04
+  73     57    D         FF      t        0      0   0    4    4    2    0  R05
+  71     56    D         FF      t        0      0   0    4    4    2    0  R10
+  55     42    C         FF      t        0      0   0    4    4    2    0  R11
+  56     43    C         FF      t        0      0   0    4    4    2    0  R12
+  35     22    B         FF      t        0      0   0    4    4    2    0  R13
+  58     45    C         FF      t        0      0   0    4    4    2    0  R14
+  75     59    D         FF      t        0      0   0    4    4    2    0  R15
+  77     61    D         FF      t        0      0   0    4    4    2    0  R20
+  48     36    C         FF      t        0      0   0    4    4    2    0  R21
+  50     38    C         FF      t        0      0   0    4    4    2    0  R22
+  36     21    B         FF      t        0      0   0    4    4    2    0  R23
+  51     39    C         FF      t        0      0   0    4    4    2    0  R24
+  68     53    D         FF      t        0      0   0    4    4    2    0  R25
+  69     54    D         FF      t        0      0   0    4    4    2    0  R30
+  52     40    C         FF      t        0      0   0    4    4    2    0  R31
+  54     41    C         FF      t        0      0   0    4    4    2    0  R32
+  33     24    B         FF      t        0      0   0    4    4    2    0  R33
+  45     34    C         FF      t        0      0   0    4    4    2    0  R34
+  67     52    D         FF      t        0      0   0    4    4    2    0  R35
+  40     18    B         FF   +  t        0      0   0    1    1   39    0  T1
+  25     30    B         FF   +  t !      0      0   0    1    1    0    0  T2
+  79     62    D     OUTPUT    s t        0      0   0    0    6    0    0  ~802~1
+  62     48    C     OUTPUT    s t        0      0   0    0    6    0    0  ~803~1
+  28     28    B     OUTPUT    s t        0      0   0    0    6    0    0  ~804~1
+  60     46    C     OUTPUT    s t        0      0   0    0    6    0    0  ~805~1
+  61     47    C     OUTPUT    s t        0      0   0    0    6    0    0  ~806~1
+  80     63    D     OUTPUT    s t        0      0   0    0    6    0    0  ~807~1
+
+
+Code:
+
+s = Synthesized pin or logic cell
+t = Turbo logic cell
++ = Synchronous flipflop
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+
+
+Device-Specific Information:                  d:\maxplus\a_project\cpu\cpu.rpt
+cpu2
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'B':
+
+                                         Logic cells placed in LAB 'B'
+        +------------------------------- LC23 A4
+        | +----------------------------- LC27 B4
+        | | +--------------------------- LC17 IR3
+        | | | +------------------------- LC31 IR4
+        | | | | +----------------------- LC29 LDIR
+        | | | | | +--------------------- LC32 LDR
+        | | | | | | +------------------- LC26 OUT3
+        | | | | | | | +----------------- LC25 OUT4
+        | | | | | | | | +--------------- LC20 R03
+        | | | | | | | | | +------------- LC19 R04
+        | | | | | | | | | | +----------- LC22 R13
+        | | | | | | | | | | | +--------- LC21 R23
+        | | | | | | | | | | | | +------- LC24 R33
+        | | | | | | | | | | | | | +----- LC18 T1
+        | | | | | | | | | | | | | | +--- LC30 T2
+        | | | | | | | | | | | | | | | +- LC28 ~804~1
+        | | | | | | | | | | | | | | | | 
+        | | | | | | | | | | | | | | | |   Other LABs fed by signals
+        | | | | | | | | | | | | | | | |   that feed LAB 'B'
+LC      | | | | | | | | | | | | | | | | | A B C D |     Logic cells that feed LAB 'B':
+LC23 -> * - - - - - - - - - - - - - - - | - * - - | <-- A4
+LC27 -> - * - - - - - - - - - - - - - - | - * - - | <-- B4
+LC17 -> - - * - - - - - * * * * * - - - | - * * * | <-- IR3
+LC31 -> - - - * - - - - - - - - - - - - | - * - - | <-- IR4
+LC26 -> - - - - - - * - - - - - - - - - | - * - - | <-- OUT3
+LC25 -> - - - - - - - * - - - - - - - - | - * - - | <-- OUT4
+LC20 -> - - - - - - - - * - - - - - - * | - * - - | <-- R03
+LC19 -> - - - - - - - - - * - - - - - - | - * * - | <-- R04
+LC22 -> - - - - - - - - - - * - - - - * | - * - - | <-- R13
+LC21 -> - - - - - - - - - - - * - - - * | - * - - | <-- R23
+LC24 -> - - - - - - - - - - - - * - - * | - * - - | <-- R33
+LC18 -> * * * * - - * * * * * * * * * - | - * * * | <-- T1
+
+Pin
+14   -> - - * - - - * - * - * * * - - - | - * - - | <-- BUS3
+17   -> * * - * - - - * - * - - - - - - | - * * - | <-- BUS4
+83   -> - - - - - - - - - - - - - - - - | - - - - | <-- clk
+21   -> * * * * * * * * * * * * * - - - | - * * * | <-- LDXXX0
+20   -> * * * * * * * * * * * * * - - - | - * * * | <-- LDXXX1
+22   -> * * * * * * * * * * * * * - - - | - * * * | <-- LDXXX2
+16   -> - - - - - - - - - - - - - * * - | - * - - | <-- reset
+LC50 -> - - - - - - - - - - - - - - - * | - * * * | <-- IR0
+LC49 -> - - - - - - - - - - - - - - - * | - * * * | <-- IR1
+LC33 -> - - - - - - - - * * * * * - - - | - * * * | <-- IR2
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:                  d:\maxplus\a_project\cpu\cpu.rpt
+cpu2
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'C':
+
+                                         Logic cells placed in LAB 'C'
+        +------------------------------- LC33 IR2
+        | +----------------------------- LC44 OUT2
+        | | +--------------------------- LC35 R01
+        | | | +------------------------- LC37 R02
+        | | | | +----------------------- LC42 R11
+        | | | | | +--------------------- LC43 R12
+        | | | | | | +------------------- LC45 R14
+        | | | | | | | +----------------- LC36 R21
+        | | | | | | | | +--------------- LC38 R22
+        | | | | | | | | | +------------- LC39 R24
+        | | | | | | | | | | +----------- LC40 R31
+        | | | | | | | | | | | +--------- LC41 R32
+        | | | | | | | | | | | | +------- LC34 R34
+        | | | | | | | | | | | | | +----- LC48 ~803~1
+        | | | | | | | | | | | | | | +--- LC46 ~805~1
+        | | | | | | | | | | | | | | | +- LC47 ~806~1
+        | | | | | | | | | | | | | | | | 
+        | | | | | | | | | | | | | | | |   Other LABs fed by signals
+        | | | | | | | | | | | | | | | |   that feed LAB 'C'
+LC      | | | | | | | | | | | | | | | | | A B C D |     Logic cells that feed LAB 'C':
+LC33 -> * - * * * * * * * * * * * - - - | - * * * | <-- IR2
+LC44 -> - * - - - - - - - - - - - - - - | - - * - | <-- OUT2
+LC35 -> - - * - - - - - - - - - - - - * | - - * - | <-- R01
+LC37 -> - - - * - - - - - - - - - - * - | - - * - | <-- R02
+LC42 -> - - - - * - - - - - - - - - - * | - - * - | <-- R11
+LC43 -> - - - - - * - - - - - - - - * - | - - * - | <-- R12
+LC45 -> - - - - - - * - - - - - - * - - | - - * - | <-- R14
+LC36 -> - - - - - - - * - - - - - - - * | - - * - | <-- R21
+LC38 -> - - - - - - - - * - - - - - * - | - - * - | <-- R22
+LC39 -> - - - - - - - - - * - - - * - - | - - * - | <-- R24
+LC40 -> - - - - - - - - - - * - - - - * | - - * - | <-- R31
+LC41 -> - - - - - - - - - - - * - - * - | - - * - | <-- R32
+LC34 -> - - - - - - - - - - - - * * - - | - - * - | <-- R34
+
+Pin
+18   -> - - * - * - - * - - * - - - - - | - - * * | <-- BUS1
+12   -> * * - * - * - - * - - * - - - - | - - * - | <-- BUS2
+17   -> - - - - - - * - - * - - * - - - | - * * - | <-- BUS4
+83   -> - - - - - - - - - - - - - - - - | - - - - | <-- clk
+21   -> * * * * * * * * * * * * * - - - | - * * * | <-- LDXXX0
+20   -> * * * * * * * * * * * * * - - - | - * * * | <-- LDXXX1
+22   -> * * * * * * * * * * * * * - - - | - * * * | <-- LDXXX2
+LC50 -> - - - - - - - - - - - - - * * * | - * * * | <-- IR0
+LC49 -> - - - - - - - - - - - - - * * * | - * * * | <-- IR1
+LC17 -> - - * * * * * * * * * * * - - - | - * * * | <-- IR3
+LC19 -> - - - - - - - - - - - - - * - - | - * * - | <-- R04
+LC18 -> * * * * * * * * * * * * * - - - | - * * * | <-- T1
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:                  d:\maxplus\a_project\cpu\cpu.rpt
+cpu2
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'D':
+
+                                       Logic cells placed in LAB 'D'
+        +----------------------------- LC50 IR0
+        | +--------------------------- LC49 IR1
+        | | +------------------------- LC60 OUT0
+        | | | +----------------------- LC55 OUT1
+        | | | | +--------------------- LC58 OUT5
+        | | | | | +------------------- LC51 R00
+        | | | | | | +----------------- LC57 R05
+        | | | | | | | +--------------- LC56 R10
+        | | | | | | | | +------------- LC59 R15
+        | | | | | | | | | +----------- LC61 R20
+        | | | | | | | | | | +--------- LC53 R25
+        | | | | | | | | | | | +------- LC54 R30
+        | | | | | | | | | | | | +----- LC52 R35
+        | | | | | | | | | | | | | +--- LC62 ~802~1
+        | | | | | | | | | | | | | | +- LC63 ~807~1
+        | | | | | | | | | | | | | | | 
+        | | | | | | | | | | | | | | |   Other LABs fed by signals
+        | | | | | | | | | | | | | | |   that feed LAB 'D'
+LC      | | | | | | | | | | | | | | | | A B C D |     Logic cells that feed LAB 'D':
+LC50 -> * - - - - - - - - - - - - * * | - * * * | <-- IR0
+LC49 -> - * - - - - - - - - - - - * * | - * * * | <-- IR1
+LC60 -> - - * - - - - - - - - - - - - | - - - * | <-- OUT0
+LC55 -> - - - * - - - - - - - - - - - | - - - * | <-- OUT1
+LC58 -> - - - - * - - - - - - - - - - | - - - * | <-- OUT5
+LC51 -> - - - - - * - - - - - - - - * | - - - * | <-- R00
+LC57 -> - - - - - - * - - - - - - * - | - - - * | <-- R05
+LC56 -> - - - - - - - * - - - - - - * | - - - * | <-- R10
+LC59 -> - - - - - - - - * - - - - * - | - - - * | <-- R15
+LC61 -> - - - - - - - - - * - - - - * | - - - * | <-- R20
+LC53 -> - - - - - - - - - - * - - * - | - - - * | <-- R25
+LC54 -> - - - - - - - - - - - * - - * | - - - * | <-- R30
+LC52 -> - - - - - - - - - - - - * * - | - - - * | <-- R35
+
+Pin
+11   -> * - * - - * - * - * - * - - - | - - - * | <-- BUS0
+18   -> - * - * - - - - - - - - - - - | - - * * | <-- BUS1
+15   -> - - - - * - * - * - * - * - - | - - - * | <-- BUS5
+83   -> - - - - - - - - - - - - - - - | - - - - | <-- clk
+21   -> * * * * * * * * * * * * * - - | - * * * | <-- LDXXX0
+20   -> * * * * * * * * * * * * * - - | - * * * | <-- LDXXX1
+22   -> * * * * * * * * * * * * * - - | - * * * | <-- LDXXX2
+LC33 -> - - - - - * * * * * * * * - - | - * * * | <-- IR2
+LC17 -> - - - - - * * * * * * * * - - | - * * * | <-- IR3
+LC18 -> * * * * * * * * * * * * * - - | - * * * | <-- T1
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:                  d:\maxplus\a_project\cpu\cpu.rpt
+cpu2
+
+** EQUATIONS **
+
+BUS0     : INPUT;
+BUS1     : INPUT;
+BUS2     : INPUT;
+BUS3     : INPUT;
+BUS4     : INPUT;
+BUS5     : INPUT;
+clk      : INPUT;
+LDXXX0   : INPUT;
+LDXXX1   : INPUT;
+LDXXX2   : INPUT;
+reset    : INPUT;
+
+-- Node name is 'A4' = ':452' 
+-- Equation name is 'A4', type is output 
+ A4      = TFFE( _EQ001, !T1,  VCC,  VCC,  VCC);
+  _EQ001 = !A4 &  BUS4 &  LDXXX0 & !LDXXX1 & !LDXXX2
+         #  A4 & !BUS4 &  LDXXX0 & !LDXXX1 & !LDXXX2;
+
+-- Node name is 'B4' = ':487' 
+-- Equation name is 'B4', type is output 
+ B4      = TFFE( _EQ002, !T1,  VCC,  VCC,  VCC);
+  _EQ002 =  BUS4 & !B4 & !LDXXX0 &  LDXXX1 & !LDXXX2
+         # !BUS4 &  B4 & !LDXXX0 &  LDXXX1 & !LDXXX2;
+
+-- Node name is 'IR0' = ':1108' 
+-- Equation name is 'IR0', type is output 
+ IR0     = TFFE( _EQ003, !T1,  VCC,  VCC,  VCC);
+  _EQ003 =  BUS0 & !IR0 & !LDXXX0 &  LDXXX1 &  LDXXX2
+         # !BUS0 &  IR0 & !LDXXX0 &  LDXXX1 &  LDXXX2;
+
+-- Node name is 'IR1' = ':1107' 
+-- Equation name is 'IR1', type is output 
+ IR1     = TFFE( _EQ004, !T1,  VCC,  VCC,  VCC);
+  _EQ004 =  BUS1 & !IR1 & !LDXXX0 &  LDXXX1 &  LDXXX2
+         # !BUS1 &  IR1 & !LDXXX0 &  LDXXX1 &  LDXXX2;
+
+-- Node name is 'IR2' = ':1106' 
+-- Equation name is 'IR2', type is output 
+ IR2     = TFFE( _EQ005, !T1,  VCC,  VCC,  VCC);
+  _EQ005 =  BUS2 & !IR2 & !LDXXX0 &  LDXXX1 &  LDXXX2
+         # !BUS2 &  IR2 & !LDXXX0 &  LDXXX1 &  LDXXX2;
+
+-- Node name is 'IR3' = ':1105' 
+-- Equation name is 'IR3', type is output 
+ IR3     = TFFE( _EQ006, !T1,  VCC,  VCC,  VCC);
+  _EQ006 =  BUS3 & !IR3 & !LDXXX0 &  LDXXX1 &  LDXXX2
+         # !BUS3 &  IR3 & !LDXXX0 &  LDXXX1 &  LDXXX2;
+
+-- Node name is 'IR4' = ':1104' 
+-- Equation name is 'IR4', type is output 
+ IR4     = TFFE( _EQ007, !T1,  VCC,  VCC,  VCC);
+  _EQ007 =  BUS4 & !IR4 & !LDXXX0 &  LDXXX1 &  LDXXX2
+         # !BUS4 &  IR4 & !LDXXX0 &  LDXXX1 &  LDXXX2;
+
+-- Node name is 'LDIR' 
+-- Equation name is 'LDIR', location is LC029, type is output.
+ LDIR    = LCELL( _EQ008 $  GND);
+  _EQ008 = !LDXXX0 &  LDXXX1 &  LDXXX2;
+
+-- Node name is 'LDR' 
+-- Equation name is 'LDR', location is LC032, type is output.
+ LDR     = LCELL( _EQ009 $  GND);
+  _EQ009 =  LDXXX0 &  LDXXX1 & !LDXXX2;
+
+-- Node name is 'OUT0' = ':1403' 
+-- Equation name is 'OUT0', type is output 
+ OUT0    = TFFE( _EQ010, !T1,  VCC,  VCC,  VCC);
+  _EQ010 =  BUS0 & !LDXXX0 & !LDXXX1 &  LDXXX2 & !OUT0
+         # !BUS0 & !LDXXX0 & !LDXXX1 &  LDXXX2 &  OUT0;
+
+-- Node name is 'OUT1' = ':1402' 
+-- Equation name is 'OUT1', type is output 
+ OUT1    = TFFE( _EQ011, !T1,  VCC,  VCC,  VCC);
+  _EQ011 =  BUS1 & !LDXXX0 & !LDXXX1 &  LDXXX2 & !OUT1
+         # !BUS1 & !LDXXX0 & !LDXXX1 &  LDXXX2 &  OUT1;
+
+-- Node name is 'OUT2' = ':1401' 
+-- Equation name is 'OUT2', type is output 
+ OUT2    = TFFE( _EQ012, !T1,  VCC,  VCC,  VCC);
+  _EQ012 =  BUS2 & !LDXXX0 & !LDXXX1 &  LDXXX2 & !OUT2
+         # !BUS2 & !LDXXX0 & !LDXXX1 &  LDXXX2 &  OUT2;
+
+-- Node name is 'OUT3' = ':1400' 
+-- Equation name is 'OUT3', type is output 
+ OUT3    = TFFE( _EQ013, !T1,  VCC,  VCC,  VCC);
+  _EQ013 =  BUS3 & !LDXXX0 & !LDXXX1 &  LDXXX2 & !OUT3
+         # !BUS3 & !LDXXX0 & !LDXXX1 &  LDXXX2 &  OUT3;
+
+-- Node name is 'OUT4' = ':1399' 
+-- Equation name is 'OUT4', type is output 
+ OUT4    = TFFE( _EQ014, !T1,  VCC,  VCC,  VCC);
+  _EQ014 =  BUS4 & !LDXXX0 & !LDXXX1 &  LDXXX2 & !OUT4
+         # !BUS4 & !LDXXX0 & !LDXXX1 &  LDXXX2 &  OUT4;
+
+-- Node name is 'OUT5' = ':1398' 
+-- Equation name is 'OUT5', type is output 
+ OUT5    = TFFE( _EQ015, !T1,  VCC,  VCC,  VCC);
+  _EQ015 =  BUS5 & !LDXXX0 & !LDXXX1 &  LDXXX2 & !OUT5
+         # !BUS5 & !LDXXX0 & !LDXXX1 &  LDXXX2 &  OUT5;
+
+-- Node name is 'R00' = ':603' 
+-- Equation name is 'R00', type is output 
+ R00     = TFFE( _EQ016, !T1,  VCC,  VCC,  VCC);
+  _EQ016 =  BUS0 & !IR2 & !IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 & !R00
+         # !BUS0 & !IR2 & !IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 &  R00;
+
+-- Node name is 'R01' = ':602' 
+-- Equation name is 'R01', type is output 
+ R01     = TFFE( _EQ017, !T1,  VCC,  VCC,  VCC);
+  _EQ017 =  BUS1 & !IR2 & !IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 & !R01
+         # !BUS1 & !IR2 & !IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 &  R01;
+
+-- Node name is 'R02' = ':601' 
+-- Equation name is 'R02', type is output 
+ R02     = TFFE( _EQ018, !T1,  VCC,  VCC,  VCC);
+  _EQ018 =  BUS2 & !IR2 & !IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 & !R02
+         # !BUS2 & !IR2 & !IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 &  R02;
+
+-- Node name is 'R03' = ':600' 
+-- Equation name is 'R03', type is output 
+ R03     = TFFE( _EQ019, !T1,  VCC,  VCC,  VCC);
+  _EQ019 =  BUS3 & !IR2 & !IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 & !R03
+         # !BUS3 & !IR2 & !IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 &  R03;
+
+-- Node name is 'R04' = ':599' 
+-- Equation name is 'R04', type is output 
+ R04     = TFFE( _EQ020, !T1,  VCC,  VCC,  VCC);
+  _EQ020 =  BUS4 & !IR2 & !IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 & !R04
+         # !BUS4 & !IR2 & !IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 &  R04;
+
+-- Node name is 'R05' = ':598' 
+-- Equation name is 'R05', type is output 
+ R05     = TFFE( _EQ021, !T1,  VCC,  VCC,  VCC);
+  _EQ021 =  BUS5 & !IR2 & !IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 & !R05
+         # !BUS5 & !IR2 & !IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 &  R05;
+
+-- Node name is 'R10' = ':659' 
+-- Equation name is 'R10', type is output 
+ R10     = TFFE( _EQ022, !T1,  VCC,  VCC,  VCC);
+  _EQ022 =  BUS0 &  IR2 & !IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 & !R10
+         # !BUS0 &  IR2 & !IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 &  R10;
+
+-- Node name is 'R11' = ':658' 
+-- Equation name is 'R11', type is output 
+ R11     = TFFE( _EQ023, !T1,  VCC,  VCC,  VCC);
+  _EQ023 =  BUS1 &  IR2 & !IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 & !R11
+         # !BUS1 &  IR2 & !IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 &  R11;
+
+-- Node name is 'R12' = ':657' 
+-- Equation name is 'R12', type is output 
+ R12     = TFFE( _EQ024, !T1,  VCC,  VCC,  VCC);
+  _EQ024 =  BUS2 &  IR2 & !IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 & !R12
+         # !BUS2 &  IR2 & !IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 &  R12;
+
+-- Node name is 'R13' = ':656' 
+-- Equation name is 'R13', type is output 
+ R13     = TFFE( _EQ025, !T1,  VCC,  VCC,  VCC);
+  _EQ025 =  BUS3 &  IR2 & !IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 & !R13
+         # !BUS3 &  IR2 & !IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 &  R13;
+
+-- Node name is 'R14' = ':655' 
+-- Equation name is 'R14', type is output 
+ R14     = TFFE( _EQ026, !T1,  VCC,  VCC,  VCC);
+  _EQ026 =  BUS4 &  IR2 & !IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 & !R14
+         # !BUS4 &  IR2 & !IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 &  R14;
+
+-- Node name is 'R15' = ':654' 
+-- Equation name is 'R15', type is output 
+ R15     = TFFE( _EQ027, !T1,  VCC,  VCC,  VCC);
+  _EQ027 =  BUS5 &  IR2 & !IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 & !R15
+         # !BUS5 &  IR2 & !IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 &  R15;
+
+-- Node name is 'R20' = ':715' 
+-- Equation name is 'R20', type is output 
+ R20     = TFFE( _EQ028, !T1,  VCC,  VCC,  VCC);
+  _EQ028 =  BUS0 & !IR2 &  IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 & !R20
+         # !BUS0 & !IR2 &  IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 &  R20;
+
+-- Node name is 'R21' = ':714' 
+-- Equation name is 'R21', type is output 
+ R21     = TFFE( _EQ029, !T1,  VCC,  VCC,  VCC);
+  _EQ029 =  BUS1 & !IR2 &  IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 & !R21
+         # !BUS1 & !IR2 &  IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 &  R21;
+
+-- Node name is 'R22' = ':713' 
+-- Equation name is 'R22', type is output 
+ R22     = TFFE( _EQ030, !T1,  VCC,  VCC,  VCC);
+  _EQ030 =  BUS2 & !IR2 &  IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 & !R22
+         # !BUS2 & !IR2 &  IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 &  R22;
+
+-- Node name is 'R23' = ':712' 
+-- Equation name is 'R23', type is output 
+ R23     = TFFE( _EQ031, !T1,  VCC,  VCC,  VCC);
+  _EQ031 =  BUS3 & !IR2 &  IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 & !R23
+         # !BUS3 & !IR2 &  IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 &  R23;
+
+-- Node name is 'R24' = ':711' 
+-- Equation name is 'R24', type is output 
+ R24     = TFFE( _EQ032, !T1,  VCC,  VCC,  VCC);
+  _EQ032 =  BUS4 & !IR2 &  IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 & !R24
+         # !BUS4 & !IR2 &  IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 &  R24;
+
+-- Node name is 'R25' = ':710' 
+-- Equation name is 'R25', type is output 
+ R25     = TFFE( _EQ033, !T1,  VCC,  VCC,  VCC);
+  _EQ033 =  BUS5 & !IR2 &  IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 & !R25
+         # !BUS5 & !IR2 &  IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 &  R25;
+
+-- Node name is 'R30' = ':771' 
+-- Equation name is 'R30', type is output 
+ R30     = TFFE( _EQ034, !T1,  VCC,  VCC,  VCC);
+  _EQ034 =  BUS0 &  IR2 &  IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 & !R30
+         # !BUS0 &  IR2 &  IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 &  R30;
+
+-- Node name is 'R31' = ':770' 
+-- Equation name is 'R31', type is output 
+ R31     = TFFE( _EQ035, !T1,  VCC,  VCC,  VCC);
+  _EQ035 =  BUS1 &  IR2 &  IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 & !R31
+         # !BUS1 &  IR2 &  IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 &  R31;
+
+-- Node name is 'R32' = ':769' 
+-- Equation name is 'R32', type is output 
+ R32     = TFFE( _EQ036, !T1,  VCC,  VCC,  VCC);
+  _EQ036 =  BUS2 &  IR2 &  IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 & !R32
+         # !BUS2 &  IR2 &  IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 &  R32;
+
+-- Node name is 'R33' = ':768' 
+-- Equation name is 'R33', type is output 
+ R33     = TFFE( _EQ037, !T1,  VCC,  VCC,  VCC);
+  _EQ037 =  BUS3 &  IR2 &  IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 & !R33
+         # !BUS3 &  IR2 &  IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 &  R33;
+
+-- Node name is 'R34' = ':767' 
+-- Equation name is 'R34', type is output 
+ R34     = TFFE( _EQ038, !T1,  VCC,  VCC,  VCC);
+  _EQ038 =  BUS4 &  IR2 &  IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 & !R34
+         # !BUS4 &  IR2 &  IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 &  R34;
+
+-- Node name is 'R35' = ':766' 
+-- Equation name is 'R35', type is output 
+ R35     = TFFE( _EQ039, !T1,  VCC,  VCC,  VCC);
+  _EQ039 =  BUS5 &  IR2 &  IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 & !R35
+         # !BUS5 &  IR2 &  IR3 &  LDXXX0 &  LDXXX1 & !LDXXX2 &  R35;
+
+-- Node name is 'T1' = ':115' 
+-- Equation name is 'T1', type is output 
+ T1      = DFFE( _EQ040 $  GND, GLOBAL( clk),  VCC,  VCC,  VCC);
+  _EQ040 = !reset & !T1;
+
+-- Node name is 'T2' = '~115~1' 
+-- Equation name is 'T2', location is LC030, type is output.
+T2       = _LC030~NOT;
+_LC030~NOT = DFFE( _EQ041 $  VCC, GLOBAL( clk),  VCC,  VCC,  VCC);
+  _EQ041 = !reset & !T1;
+
+-- Node name is '~802~1' 
+-- Equation name is '~802~1', location is LC062, type is output.
+ ~802~1  = LCELL( _EQ042 $  GND);
+  _EQ042 =  IR0 &  IR1 &  R35
+         # !IR0 &  IR1 &  R25
+         #  IR0 & !IR1 &  R15
+         # !IR0 & !IR1 &  R05;
+
+-- Node name is '~803~1' 
+-- Equation name is '~803~1', location is LC048, type is output.
+ ~803~1  = LCELL( _EQ043 $  GND);
+  _EQ043 =  IR0 &  IR1 &  R34
+         # !IR0 &  IR1 &  R24
+         #  IR0 & !IR1 &  R14
+         # !IR0 & !IR1 &  R04;
+
+-- Node name is '~804~1' 
+-- Equation name is '~804~1', location is LC028, type is output.
+ ~804~1  = LCELL( _EQ044 $  GND);
+  _EQ044 =  IR0 &  IR1 &  R33
+         # !IR0 &  IR1 &  R23
+         #  IR0 & !IR1 &  R13
+         # !IR0 & !IR1 &  R03;
+
+-- Node name is '~805~1' 
+-- Equation name is '~805~1', location is LC046, type is output.
+ ~805~1  = LCELL( _EQ045 $  GND);
+  _EQ045 =  IR0 &  IR1 &  R32
+         # !IR0 &  IR1 &  R22
+         #  IR0 & !IR1 &  R12
+         # !IR0 & !IR1 &  R02;
+
+-- Node name is '~806~1' 
+-- Equation name is '~806~1', location is LC047, type is output.
+ ~806~1  = LCELL( _EQ046 $  GND);
+  _EQ046 =  IR0 &  IR1 &  R31
+         # !IR0 &  IR1 &  R21
+         #  IR0 & !IR1 &  R11
+         # !IR0 & !IR1 &  R01;
+
+-- Node name is '~807~1' 
+-- Equation name is '~807~1', location is LC063, type is output.
+ ~807~1  = LCELL( _EQ047 $  GND);
+  _EQ047 =  IR0 &  IR1 &  R30
+         # !IR0 &  IR1 &  R20
+         #  IR0 & !IR1 &  R10
+         # !IR0 & !IR1 &  R00;
+
+
+
+--     Shareable expanders that are duplicated in multiple LABs:
+--     (none)
+
+
+
+
+Project Information                           d:\maxplus\a_project\cpu\cpu.rpt
+
+** COMPILATION SETTINGS & TIMES **
+
+Processing Menu Commands
+------------------------
+
+Design Doctor                             = off
+
+Logic Synthesis:
+
+   Synthesis Type Used                    = Standard
+
+   Default Synthesis Style                = NORMAL
+
+      Logic option settings in 'NORMAL' style for 'MAX7000' family
+
+      DECOMPOSE_GATES                     = on
+      DUPLICATE_LOGIC_EXTRACTION          = on
+      MINIMIZATION                        = full
+      MULTI_LEVEL_FACTORING               = on
+      NOT_GATE_PUSH_BACK                  = on
+      PARALLEL_EXPANDERS                  = off
+      REDUCE_LOGIC                        = on
+      REFACTORIZATION                     = on
+      REGISTER_OPTIMIZATION               = on
+      RESYNTHESIZE_NETWORK                = on
+      SLOW_SLEW_RATE                      = off
+      SOFT_BUFFER_INSERTION               = on
+      SUBFACTOR_EXTRACTION                = on
+      TURBO_BIT                           = on
+      XOR_SYNTHESIS                       = on
+      IGNORE_SOFT_BUFFERS                 = off
+      USE_LPM_FOR_AHDL_OPERATORS          = off
+
+   Other logic synthesis settings:
+
+      Automatic Global Clock              = on
+      Automatic Global Clear              = on
+      Automatic Global Preset             = on
+      Automatic Global Output Enable      = on
+      Automatic Fast I/O                  = off
+      Automatic Register Packing          = off
+      Automatic Open-Drain Pins           = on
+      Automatic Implement in EAB          = off
+      One-Hot State Machine Encoding      = off
+      Optimize                            = 5
+
+Default Timing Specifications: None
+
+Cut All Bidir Feedback Timing Paths       = on
+Cut All Clear & Preset Timing Paths       = on
+
+Ignore Timing Assignments                 = off
+
+Functional SNF Extractor                  = off
+
+Linked SNF Extractor                      = off
+Timing SNF Extractor                      = on
+Optimize Timing SNF                       = off
+Generate AHDL TDO File                    = off
+Fitter Settings                           = NORMAL
+Smart Recompile                           = off
+Total Recompile                           = off
+
+Interfaces Menu Commands
+------------------------
+
+EDIF Netlist Writer                       = off
+Verilog Netlist Writer                    = off
+VHDL Netlist Writer                       = off
+
+Compilation Times
+-----------------
+
+   Compiler Netlist Extractor             00:00:00
+   Database Builder                       00:00:00
+   Logic Synthesizer                      00:00:04
+   Partitioner                            00:00:01
+   Fitter                                 00:00:02
+   Timing SNF Extractor                   00:00:00
+   Assembler                              00:00:01
+   --------------------------             --------
+   Total Time                             00:00:08
+
+
+Memory Allocated
+-----------------
+
+Peak memory allocated during compilation  = 23,704K
