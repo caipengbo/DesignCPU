@@ -21,79 +21,54 @@
 
 
 N.C. = No Connect. This pin has no internal connection to the device.
-VCCINT = Dedicated power pin, which MUST be connected to VCC (5.0 volts).
-VCCIO = Dedicated power pin, which MUST be connected to VCC (5.0 volts).
+VCC = Dedicated power pin, which MUST be connected to VCC.
 GND = Dedicated ground pin or unused dedicated input, which MUST be connected to GND.
 RESERVED = Unused I/O pin, which MUST be left unconnected.
 
 ----------------------------------------------------------------------------
 
-CHIP "cpu3" ASSIGNED TO AN EPM7096LC68-7
+CHIP "cpu3" ASSIGNED TO AN EPM7032LC44-6
 GND                              : 1
 GND                              : 2
-VCCINT                           : 3
-interrupt                        : 4
-BUS2                             : 5
-GND                              : 6
-BUS0                             : 7
-BUS5                             : 8
-BUS7                             : 9
-BUS3                             : 10
-VCCIO                            : 11
-reset                            : 12
-T1                               : 13
-~809~1                           : 14
-XXX_B2                           : 15
-GND                              : 16
-XXX_B1                           : 17
-IR7                              : 18
-IR6                              : 19
-MAR3                             : 20
-VCCIO                            : 21
-MAR6                             : 22
-MAR1                             : 23
-MAR2                             : 24
-MAR7                             : 25
-GND                              : 26
-uMA0                             : 27
-~812~1                           : 28
-MAR0                             : 29
-MAR5                             : 30
-VCCIO                            : 31
-~1165~1                          : 32
-PC7                              : 33
-GND                              : 34
-VCCINT                           : 35
-uMA4                             : 36
-MAR4                             : 37
-GND                              : 38
-IR5                              : 39
-uMA2                             : 40
-uMA1                             : 41
-uMA5                             : 42
-VCCIO                            : 43
-LDXXX2                           : 44
-~1163~1                          : 45
-LDXXX0                           : 46
-~1161~1                          : 47
-GND                              : 48
-XXX_B0                           : 49
-uMA3                             : 50
-PC0                              : 51
-PC4                              : 52
-VCCIO                            : 53
-IR4                              : 54
-LDXXX1                           : 55
-PC1                              : 56
-PC6                              : 57
-GND                              : 58
-PC5                              : 59
-PC2                              : 60
-PC3                              : 61
-BUS1                             : 62
-VCCIO                            : 63
-~535~1                           : 64
-BUS4                             : 65
-GND                              : 66
-BUS6                             : 67
-~538~1                           : 68
+VCC                              : 3
+T1                               : 4
+LDXXX2                           : 5
+LDXXX1                           : 6
+LDXXX0                           : 7
+BUS3                             : 8
+RESERVED                         : 9
+GND                              : 10
+RESERVED                         : 11
+RESERVED                         : 12
+RESERVED                         : 13
+RESERVED                         : 14
+VCC                              : 15
+RESERVED                         : 16
+RESERVED                         : 17
+RESERVED                         : 18
+RESERVED                         : 19
+RESERVED                         : 20
+RESERVED                         : 21
+GND                              : 22
+VCC                              : 23
+RESERVED                         : 24
+RESERVED                         : 25
+RESERVED                         : 26
+RESERVED                         : 27
+RESERVED                         : 28
+RESERVED                         : 29
+GND                              : 30
+RESERVED                         : 31
+RESERVED                         : 32
+RESERVED                         : 33
+RESERVED                         : 34
+VCC                              : 35
+RESERVED                         : 36
+RESERVED                         : 37
+RESERVED                         : 38
+LDIR                             : 39
+A3                               : 40
+OUT3                             : 41
+GND                              : 42
+GND                              : 43
+GND                              : 44
